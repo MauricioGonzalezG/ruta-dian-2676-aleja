@@ -1,0 +1,17 @@
+{
+  "name": "ruta-dian-2676",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env.local server/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node verify.cjs && node --test tests/*.test.mjs",
+    "db:migrate": "node --env-file-if-exists=.env.local scripts/migrate.mjs"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.0",
+    "three": "^0.180.0"
+  }
+}

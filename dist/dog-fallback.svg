@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 430" fill="none" role="img" aria-labelledby="dog-title dog-desc">
+  <title id="dog-title">Toby, tu compañero de estudio</title>
+  <desc id="dog-desc">Un perrito dorado de ojos brillantes, sentado sobre una base verde suave.</desc>
+  <defs>
+    <radialGradient id="fur" cx=".34" cy=".22" r=".87"><stop stop-color="#ffe4ad"/><stop offset=".5" stop-color="#e9b76e"/><stop offset="1" stop-color="#bb803e"/></radialGradient>
+    <radialGradient id="cream" cx=".3" cy=".15" r=".94"><stop stop-color="#fff4d4"/><stop offset=".7" stop-color="#f5d49a"/><stop offset="1" stop-color="#dca661"/></radialGradient>
+    <linearGradient id="ear" x1="0" x2="1"><stop stop-color="#9c6536"/><stop offset=".48" stop-color="#c98c4b"/><stop offset="1" stop-color="#e0ae6c"/></linearGradient>
+    <linearGradient id="inner" y2="1"><stop stop-color="#c78d62"/><stop offset="1" stop-color="#e5b186"/></linearGradient>
+    <radialGradient id="eye" cx=".33" cy=".26" r=".8"><stop stop-color="#574437"/><stop offset=".6" stop-color="#292322"/><stop offset="1" stop-color="#141c22"/></radialGradient>
+    <linearGradient id="base" x2="1" y2="1"><stop stop-color="#e4ecdd"/><stop offset="1" stop-color="#a9bca3"/></linearGradient>
+    <radialGradient id="ground"><stop stop-color="#545946" stop-opacity=".22"/><stop offset="1" stop-color="#545946" stop-opacity="0"/></radialGradient>
+    <linearGradient id="tongue" y2="1"><stop stop-color="#f6a6a3"/><stop offset="1" stop-color="#dd737e"/></linearGradient>
+    <filter id="shadow" x="-.5" y="-.5" width="2" height="2"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <ellipse cx="247" cy="383" rx="150" ry="27" fill="url(#ground)"/>
+  <path d="M100 346v20c0 26 63 45 141 45s141-19 141-45v-20" fill="url(#base)"/>
+  <ellipse cx="241" cy="346" rx="141" ry="45" fill="#eef0d9"/>
+  <ellipse cx="239" cy="347" rx="91" ry="22" fill="#7a7057" opacity=".18" filter="url(#shadow)"/>
+  <path d="M307 293c33-13 45-39 42-65-1-12 16-16 19-3 12 48-8 91-49 99" fill="url(#fur)"/>
+  <path d="M354 242c-4-10-5-20-5-23 0-14 17-15 19-1 1 6 2 15 1 23" fill="url(#cream)"/>
+  <ellipse cx="238" cy="275" rx="71" ry="81" fill="url(#fur)"/>
+  <ellipse cx="188" cy="312" rx="36" ry="38" fill="url(#fur)"/>
+  <ellipse cx="284" cy="311" rx="36" ry="38" fill="url(#fur)"/>
+  <ellipse cx="235" cy="273" rx="42" ry="62" fill="url(#cream)"/>
+  <path d="M196 252c-8 18-11 47-6 79 1 9 20 15 25 3l7-81" fill="url(#fur)"/>
+  <path d="M254 252c5 29 5 53-1 80-2 13 17 17 24 6 12-30 8-66-3-84" fill="url(#fur)"/>
+  <ellipse cx="185" cy="343" rx="30" ry="15" fill="url(#cream)"/>
+  <ellipse cx="291" cy="343" rx="29" ry="15" fill="url(#cream)"/>
+  <ellipse cx="203" cy="345" rx="28" ry="20" fill="url(#cream)"/>
+  <ellipse cx="265" cy="345" rx="29" ry="20" fill="url(#cream)"/>
+  <path d="M197 350v8m13-8v8m49-8v8m13-8v8" stroke="#c38e53" stroke-width="2" stroke-linecap="round"/>
+  <path d="M148 116c-27 3-42 39-38 81 2 32 8 54 29 54 22-1 36-43 39-78" fill="url(#ear)"/>
+  <path d="M310 118c32 2 50 25 51 63 1 40-11 69-30 71-27 2-39-41-39-76" fill="url(#ear)"/>
+  <path d="M130 161c-14 20-13 59-3 72 15 13 27-17 31-48" fill="url(#inner)"/>
+  <path d="M335 159c17 18 17 55 7 70-13 13-24-13-29-44" fill="url(#inner)"/>
+  <ellipse cx="233" cy="164" rx="100" ry="86" fill="url(#fur)"/>
+  <path d="M216 86c-10-24 1-42 15-32 8 6 3 24 6 32" fill="url(#fur)"/>
+  <path d="M233 84c-2-26 12-36 20-23 4 7-7 19-8 24" fill="url(#cream)"/>
+  <path d="M247 85c6-18 19-22 21-12 2 9-5 16-11 19" fill="url(#fur)"/>
+  <ellipse cx="192" cy="160" rx="21" ry="25" fill="#bc874f"/>
+  <ellipse cx="278" cy="160" rx="21" ry="25" fill="#bc874f"/>
+  <ellipse cx="193" cy="160" rx="17" ry="21" fill="url(#eye)"/>
+  <ellipse cx="278" cy="160" rx="17" ry="21" fill="url(#eye)"/>
+  <ellipse cx="188" cy="151" rx="5" ry="6" fill="#fff9e9"/>
+  <ellipse cx="273" cy="151" rx="5" ry="6" fill="#fff9e9"/>
+  <circle cx="201" cy="168" r="2.5" fill="#fff9e9"/>
+  <circle cx="285" cy="168" r="2.5" fill="#fff9e9"/>
+  <path d="M178 127c8-5 20-7 30-1m57 0c10-6 22-4 29 1" stroke="#e0b273" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="172" cy="192" rx="12" ry="6" fill="#d59771" opacity=".7"/>
+  <ellipse cx="297" cy="192" rx="12" ry="6" fill="#d59771" opacity=".7"/>
+  <ellipse cx="236" cy="212" rx="49" ry="35" fill="url(#cream)"/>
+  <ellipse cx="215" cy="204" rx="29" ry="22" fill="url(#cream)"/>
+  <ellipse cx="256" cy="204" rx="29" ry="22" fill="url(#cream)"/>
+  <path d="M220 185c0-9 31-9 31 0 0 10-9 17-16 17s-15-9-15-17" fill="url(#eye)"/>
+  <ellipse cx="229" cy="182" rx="5" ry="2" fill="#f7edda" opacity=".9"/>
+  <path d="M235 203v13m0 0c-11 14-24 9-30 1m30-1c11 14 24 9 30 1" stroke="#785044" stroke-width="3" stroke-linecap="round"/>
+  <path d="M224 225c6 3 15 3 22 0v12c0 16-22 16-22 0z" fill="url(#tongue)"/>
+  <path d="M235 229v13" stroke="#d56878" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
