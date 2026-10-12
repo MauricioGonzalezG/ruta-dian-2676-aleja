@@ -4,7 +4,8 @@ Ruta para OPEC 236906: 22 indicadores, siete etapas temáticas y un simulacro fi
 
 ## Funciones
 
-- Perrito 3D de Three.js con giro por arrastre o teclado, animaciones, alimentación y ropa. Sin WebGL, muestra una ilustración de respaldo.
+- Perrito 3D de Three.js con pelaje estilizado, ojos articulados, mandíbula y patas detalladas. Su rincón incluye un bol de cerámica con croquetas individuales, cama acolchada y juguetes. Las prendas tienen costuras y pequeños detalles. Sin WebGL, muestra una ilustración de respaldo.
+- Merienda animada en fases: anticipar, olfatear, comer, relamerse y quedar satisfecho. Los botones permiten acariciar, jugar, estirarse, descansar, sentarse y celebrar. Ver cómo come es una demostración que no descuenta comida ni cambia el progreso.
 - Comida por cada examen terminado con 80% o más; dos comidas al lograr 100%. Estrellas por alcanzar una meta por primera vez y por su primer resultado perfecto. Pañuelo, gorra, suéter y corona se desbloquean con estrellas. El autoinforme completo da comida sin puntuar sus respuestas.
 - Prioridades alta, normal y baja por indicador. Cambian la siguiente lección, el orden sugerido de etapas y el muestreo de práctica; la distribución abreviada del simulacro se mantiene.
 - Avance, mascota y prioridades en el navegador, con respaldos JSON.

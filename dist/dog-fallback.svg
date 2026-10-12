@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 430" fill="none" role="img" aria-labelledby="dog-title dog-desc">
   <title id="dog-title">Toby, tu compañero de estudio</title>
-  <desc id="dog-desc">Un perrito dorado de ojos brillantes, sentado sobre una base verde suave.</desc>
+  <desc id="dog-desc">Un perrito dorado de ojos brillantes y mechones suaves, sentado en una cama acolchada. Tiene un bol de cerámica y una pelota.</desc>
   <defs>
     <radialGradient id="fur" cx=".34" cy=".22" r=".87"><stop stop-color="#ffe4ad"/><stop offset=".5" stop-color="#e9b76e"/><stop offset="1" stop-color="#bb803e"/></radialGradient>
     <radialGradient id="cream" cx=".3" cy=".15" r=".94"><stop stop-color="#fff4d4"/><stop offset=".7" stop-color="#f5d49a"/><stop offset="1" stop-color="#dca661"/></radialGradient>
@@ -15,7 +15,27 @@
   <ellipse cx="247" cy="383" rx="150" ry="27" fill="url(#ground)"/>
   <path d="M100 346v20c0 26 63 45 141 45s141-19 141-45v-20" fill="url(#base)"/>
   <ellipse cx="241" cy="346" rx="141" ry="45" fill="#eef0d9"/>
+  <ellipse cx="239" cy="342" rx="102" ry="30" fill="#648c7c"/>
+  <ellipse cx="239" cy="336" rx="92" ry="24" fill="#a3b9a0"/>
+  <ellipse cx="239" cy="341" rx="97" ry="27" stroke="#eadfba" stroke-width="2" stroke-dasharray="3 6"/>
+  <path d="M147 324c-2-12 6-19 12-17l8 21m147-4c2-12-6-19-12-17l-8 21" stroke="#648c7c" stroke-width="15" stroke-linecap="round"/>
   <ellipse cx="239" cy="347" rx="91" ry="22" fill="#7a7057" opacity=".18" filter="url(#shadow)"/>
+  <g transform="translate(116 350)">
+    <path d="M-29-3c0 19 8 28 28 28S28 16 28-3" fill="#7da6a4"/>
+    <ellipse cy="-3" rx="29" ry="11" fill="#eff0d9"/>
+    <ellipse cy="-3" rx="24" ry="7.5" fill="#507c77"/>
+    <ellipse cy="-1" rx="18" ry="4" fill="#8faaa0"/>
+    <path d="M-6 16c0-5 12-5 12 0 0 5-12 5-12 0" fill="#426e67"/>
+    <circle cx="-7" cy="10" r="2" fill="#426e67"/><circle cx="-2" cy="8" r="2" fill="#426e67"/><circle cx="3" cy="8" r="2" fill="#426e67"/><circle cx="8" cy="10" r="2" fill="#426e67"/>
+    <ellipse cy="23" rx="21" ry="3" fill="#3c6b63" opacity=".4"/>
+  </g>
+  <g transform="translate(356 352)">
+    <circle r="19" fill="#86b1ad"/><path d="M-13-14c5 9 15 21 27 27" stroke="#d88575" stroke-width="5"/><path d="M11-16c-10 8-15 20-15 33" stroke="#fff0c4" stroke-width="3"/>
+    <ellipse cx="-7" cy="-8" rx="5" ry="3" fill="#d1e4ce" opacity=".75"/>
+  </g>
+  <g transform="translate(155 368) rotate(-14)">
+    <path d="M-15-4H15V4H-15z" fill="#ffe3ac"/><path d="M-16-4c-7-6-11 1-6 4-5 4-1 10 6 4m32-8c7-6 11 1 6 4 5 4 1 10-6 4" fill="#ffe3ac"/>
+  </g>
   <path d="M307 293c33-13 45-39 42-65-1-12 16-16 19-3 12 48-8 91-49 99" fill="url(#fur)"/>
   <path d="M354 242c-4-10-5-20-5-23 0-14 17-15 19-1 1 6 2 15 1 23" fill="url(#cream)"/>
   <ellipse cx="238" cy="275" rx="71" ry="81" fill="url(#fur)"/>
@@ -34,6 +54,7 @@
   <path d="M130 161c-14 20-13 59-3 72 15 13 27-17 31-48" fill="url(#inner)"/>
   <path d="M335 159c17 18 17 55 7 70-13 13-24-13-29-44" fill="url(#inner)"/>
   <ellipse cx="233" cy="164" rx="100" ry="86" fill="url(#fur)"/>
+  <path d="M141 124l-8 6m9 7-9 6m192-13 8 5m-7 7 8 5M158 104l-5-8m158 10 5-7M146 213l-7 3m185-5 8 3" stroke="#e0ae6c" stroke-width="5" stroke-linecap="round"/>
   <path d="M216 86c-10-24 1-42 15-32 8 6 3 24 6 32" fill="url(#fur)"/>
   <path d="M233 84c-2-26 12-36 20-23 4 7-7 19-8 24" fill="url(#cream)"/>
   <path d="M247 85c6-18 19-22 21-12 2 9-5 16-11 19" fill="url(#fur)"/>
@@ -41,6 +62,8 @@
   <ellipse cx="278" cy="160" rx="21" ry="25" fill="#bc874f"/>
   <ellipse cx="193" cy="160" rx="17" ry="21" fill="url(#eye)"/>
   <ellipse cx="278" cy="160" rx="17" ry="21" fill="url(#eye)"/>
+  <ellipse cx="193" cy="163" rx="12" ry="16" fill="#795b3c"/><ellipse cx="278" cy="163" rx="12" ry="16" fill="#795b3c"/>
+  <ellipse cx="193" cy="164" rx="9" ry="14" fill="#202427"/><ellipse cx="278" cy="164" rx="9" ry="14" fill="#202427"/>
   <ellipse cx="188" cy="151" rx="5" ry="6" fill="#fff9e9"/>
   <ellipse cx="273" cy="151" rx="5" ry="6" fill="#fff9e9"/>
   <circle cx="201" cy="168" r="2.5" fill="#fff9e9"/>
@@ -51,9 +74,15 @@
   <ellipse cx="236" cy="212" rx="49" ry="35" fill="url(#cream)"/>
   <ellipse cx="215" cy="204" rx="29" ry="22" fill="url(#cream)"/>
   <ellipse cx="256" cy="204" rx="29" ry="22" fill="url(#cream)"/>
+  <path d="M190 203l-19-5m21 10-25 3m25 1-20 8m106-17 19-5m-21 10 25 3m-25 1 20 8" stroke="#9d7956" stroke-width="1" stroke-linecap="round"/>
+  <g fill="#c08e55"><circle cx="199" cy="198" r="1.5"/><circle cx="203" cy="207" r="1.5"/><circle cx="209" cy="201" r="1.5"/><circle cx="267" cy="198" r="1.5"/><circle cx="263" cy="207" r="1.5"/><circle cx="257" cy="201" r="1.5"/></g>
   <path d="M220 185c0-9 31-9 31 0 0 10-9 17-16 17s-15-9-15-17" fill="url(#eye)"/>
   <ellipse cx="229" cy="182" rx="5" ry="2" fill="#f7edda" opacity=".9"/>
   <path d="M235 203v13m0 0c-11 14-24 9-30 1m30-1c11 14 24 9 30 1" stroke="#785044" stroke-width="3" stroke-linecap="round"/>
   <path d="M224 225c6 3 15 3 22 0v12c0 16-22 16-22 0z" fill="url(#tongue)"/>
   <path d="M235 229v13" stroke="#d56878" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M207 247c20 7 41 7 57 0" stroke="#608b7c" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="236" cy="259" r="9" fill="#ecbb57" stroke="#d5a34c" stroke-width="1.5"/>
+  <circle cx="236" cy="250" r="2.5" stroke="#ecbb57" stroke-width="1.5"/>
+  <text x="236" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="5" fill="#705638">TOBY</text>
 </svg>

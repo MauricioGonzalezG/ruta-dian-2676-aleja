@@ -1,11 +1,11 @@
 /* Rewards are learning milestones, never an official exam score. */
 (function(root){
   const outfits=[
-    {id:'none',name:'Al natural',stars:0,icon:'🐾',description:'Toby empieza contigo.'},
-    {id:'scarf',name:'Pañuelo explorador',stars:1,icon:'🧣',description:'El primer examen con 80% abre este regalo.'},
-    {id:'cap',name:'Gorra de estudiante',stars:4,icon:'🧢',description:'Cuatro estrellas para seguir aprendiendo.'},
-    {id:'sweater',name:'Suéter de equipo',stars:8,icon:'👕',description:'Ocho estrellas y un compañero bien abrigado.'},
-    {id:'crown',name:'Corona del conocimiento',stars:15,icon:'👑',description:'Quince estrellas de constancia.'}
+    {id:'none',name:'Al natural',stars:0,icon:'🐾',description:'Pelaje dorado, patitas suaves y chapita con su nombre.'},
+    {id:'scarf',name:'Pañuelo explorador',stars:1,icon:'🧣',description:'Tela coral con costuras, un nudo y pequeñas puntadas.'},
+    {id:'cap',name:'Gorra de estudiante',stars:4,icon:'🧢',description:'Paneles azules, visera curva y detalles bordados.'},
+    {id:'sweater',name:'Suéter de equipo',stars:8,icon:'👕',description:'Punto verde, cuello acanalado y una patita bordada.'},
+    {id:'crown',name:'Corona del conocimiento',stars:15,icon:'👑',description:'Oro, gemas de colores y puntas redondeadas.'}
   ];
   const initial=()=>({name:'Toby',outfit:'none',ledger:{}});
   function stats(pet){let stars=0,food=0,fed=0;for(const e of Object.values(pet?.ledger||{})){stars+=e.stars||0;food+=e.food||0;if(e.kind==='feed')fed++}return{stars:Math.max(0,stars),food:Math.max(0,food),fed}}
