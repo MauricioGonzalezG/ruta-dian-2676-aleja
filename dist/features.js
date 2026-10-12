@@ -12,8 +12,9 @@
   function persist(state){
     const serialized=JSON.stringify(state);if(serialized===lastSerialized)return;lastSerialized=serialized;
     const value=cloud.user?JSON.stringify({state,revision:cloud.revision,dirty:true,updatedAt:Date.now()}):serialized;
-    localStorage.setItem(storageKey(),value);
+    let storageError=null;try{localStorage.setItem(storageKey(),value)}catch(error){storageError=error}
     if(cloud.user&&cloud.enabled&&!['loading','expired','conflict'].includes(cloud.status)){cloud.status='pending';clearTimeout(syncTimer);syncTimer=setTimeout(flush,800)}
+    if(storageError&&!cloud.user)throw storageError;
   }
   async function api(path,body,method){
     const headers=body?{'Content-Type':'application/json','X-Ruta-Client':'web'}:{};
@@ -48,7 +49,7 @@
   async function flush(){
     clearTimeout(syncTimer);if(!cloud.user||!cloud.enabled||['loading','conflict','expired'].includes(cloud.status))return;
     if(syncBusy){syncAgain=true;return}syncBusy=true;cloud.status='saving';let snapshot=JSON.parse(JSON.stringify(b.state()));
-    try{const result=await api('progress',{state:snapshot,revision:cloud.revision},'PUT');cloud.revision=result.revision;cloud.status='synced';const dirty=JSON.stringify(b.state())!==JSON.stringify(snapshot);localStorage.setItem(storageKey(),JSON.stringify({state:b.state(),revision:cloud.revision,dirty,updatedAt:Date.now()}));if(dirty)syncAgain=true}
+    try{const result=await api('progress',{state:snapshot,revision:cloud.revision},'PUT');cloud.revision=result.revision;cloud.status='synced';const dirty=JSON.stringify(b.state())!==JSON.stringify(snapshot);try{localStorage.setItem(storageKey(),JSON.stringify({state:b.state(),revision:cloud.revision,dirty,updatedAt:Date.now()}))}catch{};if(dirty)syncAgain=true}
     catch(error){if(error.data?.code==='REVISION_CONFLICT'){cloud.conflict=error.data;cloud.status='conflict';b.toast('Hay cambios en otro dispositivo. Puedes unirlos desde Mi cuenta.')}else{cloud.status=error.status===401?'expired':'offline';b.toast(error.status===401?'La sesión venció. Tu copia local se conserva; vuelve a iniciar sesión.':'No pudimos sincronizar. Tu avance sigue guardado en este dispositivo.')}}
     finally{syncBusy=false;refreshStatus();if(syncAgain&&!['conflict','expired','offline'].includes(cloud.status)){syncAgain=false;await flush()}}
   }
@@ -86,7 +87,7 @@
     if(name==='sync'){await flush();if(cloud.status==='synced')b.toast('Tu avance quedó guardado en la cuenta.');b.render()}
     if(name==='merge-conflict'&&cloud.conflict){let remote=cloud.conflict;cloud.revision=remote.revision;cloud.conflict=null;cloud.status='synced';b.replace(mergeStudy(b.state(),remote.state||b.initial()));lastSerialized='';b.save();await flush();b.render()}
     if(name==='merge-guest'){let guest=null;try{guest=JSON.parse(localStorage.getItem(BASE)||'null')}catch{}if(guest){b.replace(mergeStudy(b.state(),guest));lastSerialized='';b.save();await flush();b.render();b.toast('Lecturas, resultados y premios reunidos.')}else b.toast('No hay avance de invitado para unir.')}
-    if(name==='logout'){try{await flush();await api('auth/logout',{});cloud.user=null;cloud.revision=0;cloud.status='local';lastSerialized='';const guest=JSON.parse(localStorage.getItem(BASE)||'null');b.replace(guest||b.initial());b.save();b.render();b.toast('Sesión cerrada. Estás en el modo de este navegador.')}catch(error){b.toast(error.message)}}
+    if(name==='logout'){try{await flush();await api('auth/logout',{});cloud.user=null;cloud.revision=0;cloud.status='local';lastSerialized='';let guest=null;try{guest=JSON.parse(localStorage.getItem(BASE)||'null')}catch{}b.replace(guest||b.initial());b.save();b.render();b.toast('Sesión cerrada. Estás en el modo de este navegador.')}catch(error){b.toast(error.message)}}
   }
   document.addEventListener('submit',async event=>{
     const form=event.target;if(form.id!=='auth-form')return;event.preventDefault();if(!form.reportValidity())return;const submit=form.querySelector('button[type="submit"]'),errorEl=form.querySelector('#auth-error');submit.disabled=true;errorEl.textContent='';
