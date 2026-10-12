@@ -1,0 +1,1660 @@
+[
+  {
+    "id": "orientacion1",
+    "stage": "servicio",
+    "title": "Escuchar y orientar con claridad",
+    "indicator": "ORIENTACION AL USUARIO Y AL CIUDADANO NIVEL 1",
+    "minutes": 15,
+    "summary": "Practica una atención en la que el ciudadano entiende qué puede hacer después de hablar contigo.",
+    "objectives": [
+      "Identificar la necesidad antes de responder.",
+      "Construir una orientación verificable y útil.",
+      "Distinguir cordialidad de promesas sin respaldo."
+    ],
+    "sections": [
+      {
+        "title": "El foco del nivel 1",
+        "text": "El nivel 1 combina escucha, trato cordial y respuesta oportuna. En tus ejercicios, identifica qué pide realmente la persona: información, orientación o revisión de una dificultad."
+      },
+      {
+        "title": "Una ruta para practicar",
+        "text": "Imagina una ventanilla: primero pregunta lo que falta para entender; después consulta la información disponible y explica el siguiente paso. Si otra dependencia debe intervenir, indica la ruta concreta y registra lo que corresponda. Una remisión útil permite continuar el trámite."
+      },
+      {
+        "title": "Comprender antes de cerrar",
+        "text": "Ensaya una explicación con una acción por frase y confirma qué hará la persona. Los casos de esta lección tienen un criterio pedagógico explícito. La práctica de autoinforme Likert usa afirmaciones sin respuesta correcta: contesta según tu comportamiento habitual, con honestidad."
+      }
+    ],
+    "example": {
+      "situation": "Una persona dice que necesita «arreglar unos papeles» y no conoce el nombre del trámite.",
+      "action": "Preguntar para qué necesita el documento, identificar el trámite y orientar con la información oficial aplicable.",
+      "why": "La pregunta evita enviar al ciudadano a una ruta que no corresponde a su necesidad."
+    },
+    "pitfalls": [
+      "Responder a una palabra aislada sin explorar la solicitud.",
+      "Dar una fecha o resultado que no se ha confirmado."
+    ],
+    "recall": {
+      "prompt": "¿Qué debe poder explicar el ciudadano al terminar la atención?",
+      "answer": "Cuál es el siguiente paso, por qué corresponde y dónde puede realizarlo."
+    },
+    "questions": [
+      {
+        "stem": "Un ciudadano pregunta por un documento, pero su explicación puede corresponder a dos trámites. ¿Qué actuación se alinea mejor con el objetivo de esta práctica?",
+        "options": [
+          "Entregar el instructivo del trámite que se solicita con mayor frecuencia.",
+          "Hacer preguntas breves sobre la finalidad y orientar según la necesidad identificada.",
+          "Remitirlo a otra ventanilla para que decida cuál trámite requiere."
+        ],
+        "answer": 1,
+        "explanation": "Preguntar permite orientar con pertinencia. El trámite más frecuente puede no servirle y una remisión sin aclaración traslada la incertidumbre.",
+        "id": "orientacion1-q1",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "No conoces la respuesta a una consulta de un usuario. Hay una guía oficial y un área competente disponibles. ¿Cómo continuar?",
+        "options": [
+          "Consultar la guía o el área competente y comunicar la orientación verificada.",
+          "Dar una respuesta provisional de memoria para evitar la espera.",
+          "Invitarlo a buscar la información por su cuenta porque tu función es de apoyo."
+        ],
+        "answer": 0,
+        "explanation": "Verificar produce una respuesta útil y responsable. La memoria no confirmada puede inducir un error; abandonar la orientación desperdicia los apoyos disponibles.",
+        "id": "orientacion1-q2",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "El asunto excede tu competencia y debe pasar a otra dependencia. ¿Qué remisión ayuda más al ciudadano?",
+        "options": [
+          "Indicar que otro equipo tiene la responsabilidad y cerrar la conversación.",
+          "Acompañarlo personalmente hasta resolver cualquier decisión de fondo.",
+          "Explicar el motivo, la dependencia y el canal de atención, verificando que comprenda."
+        ],
+        "answer": 2,
+        "explanation": "Una ruta concreta facilita continuidad sin asumir decisiones ajenas. Una referencia vaga no orienta; prometer resolver cualquier decisión excede el papel asistencial.",
+        "id": "orientacion1-q3",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "La fila crece y una persona no entiende la instrucción que acabas de dar. ¿Qué opción conserva mejor la calidad de atención?",
+        "options": [
+          "Reformularla brevemente y confirmar que identifica su siguiente paso.",
+          "Repetir la misma explicación con mayor velocidad.",
+          "Entregarle la guía completa para que la lea fuera de la fila."
+        ],
+        "answer": 0,
+        "explanation": "Reformular y confirmar atiende la dificultad concreta. Acelerar el mismo mensaje no corrige la incomprensión; la guía por sí sola puede mantenerla.",
+        "id": "orientacion1-q4",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "orientacion1-l1",
+        "statement": "Cuando una solicitud es ambigua, suelo hacer preguntas antes de orientar."
+      },
+      {
+        "id": "orientacion1-l2",
+        "statement": "En una jornada con alta demanda, me cuesta dedicar tiempo a comprobar si mi orientación se entendió."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Diccionario de Competencias · Resolución 000065 de 2024",
+        "url": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "label": "DIAN · Resolución 65 de 2024",
+        "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0065_2024.htm"
+      }
+    ]
+  },
+  {
+    "id": "orientacion2",
+    "stage": "servicio",
+    "title": "Empatía y mejora del servicio",
+    "indicator": "ORIENTACION AL USUARIO Y AL CIUDADANO NIVEL 2",
+    "minutes": 17,
+    "summary": "Resuelve casos donde comprender el contexto del usuario permite mejorar la atención y revisar sus resultados.",
+    "objectives": [
+      "Explorar barreras concretas del usuario.",
+      "Mantener autocontrol en una atención difícil.",
+      "Usar la experiencia de atención para proponer una mejora."
+    ],
+    "sections": [
+      {
+        "title": "El foco del nivel 2",
+        "text": "El nivel 2 añade empatía, verificación de satisfacción y propuestas de mejora. Frente al nivel 1, observa también la experiencia del usuario y qué puede facilitarla."
+      },
+      {
+        "title": "Una conversación con contexto",
+        "text": "En un caso, una persona ha viajado varias horas y no sabe usar el portal. Pregunta dónde se detuvo, reconoce su dificultad y explica una alternativa disponible. Para practicar, conserva el mismo requisito del trámite y modifica la forma de orientar."
+      },
+      {
+        "title": "Aprender de varias atenciones",
+        "text": "Si se repite una confusión, registra el patrón sin divulgar datos personales y plantea una corrección a la guía o a la señalización. Comprueba después si ayudó. Estos casos enseñan criterios; en las afirmaciones Likert responde por tu experiencia habitual, sin buscar una clave."
+      }
+    ],
+    "example": {
+      "situation": "Varias personas regresan porque interpretaron de modo distinto un requisito publicado.",
+      "action": "Confirmar la dificultad, orientar con precisión y proponer al responsable una explicación más comprensible.",
+      "why": "La experiencia concreta permite mejorar futuras atenciones y evita limitarse a resolver el caso aislado."
+    },
+    "pitfalls": [
+      "Confundir empatía con saltarse requisitos.",
+      "Suponer que la ausencia de queja demuestra satisfacción."
+    ],
+    "recall": {
+      "prompt": "¿Qué observas adicionalmente al pasar del nivel 1 al 2?",
+      "answer": "El contexto del usuario, su experiencia con la orientación y una posible mejora del servicio."
+    },
+    "questions": [
+      {
+        "stem": "Un usuario está molesto después de dos visitas sin completar su trámite. ¿Qué actuación se ajusta mejor al criterio de empatía de este ejercicio?",
+        "options": [
+          "Explicarle de nuevo el requisito y evitar hablar de las visitas anteriores.",
+          "Escucharlo y prometer que hoy se resolverá, aunque falte una validación.",
+          "Escuchar qué ocurrió, reconocer la dificultad y construir una ruta viable con información verificada."
+        ],
+        "answer": 2,
+        "explanation": "Comprender lo sucedido permite ofrecer ayuda pertinente. Repetir sin explorar puede reproducir la barrera; una promesa no confirmada crea una nueva expectativa.",
+        "id": "orientacion2-q1",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Tres usuarios indican que no encontraron un enlace en el portal. ¿Qué aporta valor al servicio desde un cargo asistencial?",
+        "options": [
+          "Pedir que la próxima vez revisen el portal con más cuidado.",
+          "Registrar la dificultad recurrente y proponer al responsable una guía o señalización más clara.",
+          "Crear un canal personal para que todos los trámites se reciban por allí."
+        ],
+        "answer": 1,
+        "explanation": "La propuesta parte de una barrera observada y se tramita por el responsable. Culpar a los usuarios impide aprender; el canal personal altera la atención sin autorización.",
+        "id": "orientacion2-q2",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Una persona necesita orientación digital y manifiesta que no tiene experiencia con computadores. ¿Cómo atender su contexto?",
+        "options": [
+          "Ofrecer instrucciones graduales con los apoyos autorizados y confirmar cómo puede continuar.",
+          "Dar la misma explicación técnica utilizada con los usuarios expertos.",
+          "Realizar cualquier actuación por ella sin explicar el alcance ni verificar autorizaciones."
+        ],
+        "answer": 0,
+        "explanation": "Ajustar el apoyo facilita comprensión y autonomía. La explicación técnica puede mantener la barrera; actuar sin aclaraciones o autorizaciones puede afectar sus decisiones.",
+        "id": "orientacion2-q3",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Tras explicar una alternativa, deseas saber si ayudó al usuario. ¿Qué comprobación resulta más útil?",
+        "options": [
+          "Interpretar su silencio como aceptación y cerrar.",
+          "Preguntar si identifica el siguiente paso y qué dificultad aún le queda.",
+          "Preguntar solamente si le gustó la amabilidad de la atención."
+        ],
+        "answer": 1,
+        "explanation": "La comprobación concreta revela si puede avanzar. El silencio no basta; la amabilidad es relevante, pero no demuestra que la necesidad haya quedado orientada.",
+        "id": "orientacion2-q4",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "orientacion2-l1",
+        "statement": "Al orientar, suelo explorar qué dificultad concreta está enfrentando la otra persona."
+      },
+      {
+        "id": "orientacion2-l2",
+        "statement": "Cuando recibo quejas repetidas, prefiero centrarme en cada caso antes de proponer cambios al servicio."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Diccionario de Competencias · Resolución 000065 de 2024",
+        "url": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "label": "DIAN · Resolución 65 de 2024",
+        "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0065_2024.htm"
+      }
+    ]
+  },
+  {
+    "id": "adaptabilidad",
+    "stage": "competencias",
+    "title": "Aprender cuando cambia la forma de trabajar",
+    "indicator": "ADAPTABILIDAD NIVEL 1",
+    "minutes": 14,
+    "summary": "Ensaya cómo responder a una nueva herramienta, una instrucción actualizada o una tarea inesperada.",
+    "objectives": [
+      "Identificar qué cambia y qué debes aprender.",
+      "Aplicar una instrucción nueva dentro de tu función.",
+      "Pedir apoyo específico sin abandonar la responsabilidad."
+    ],
+    "sections": [
+      {
+        "title": "El foco del nivel 1",
+        "text": "En el nivel 1 se observa disposición para aplicar cambios y aprender. El nivel 2 profundiza en revisar certezas; aquí comienza por ajustar tu práctica."
+      },
+      {
+        "title": "Del cambio a una acción pequeña",
+        "text": "Supón que cambia la plantilla de registro. Localiza la versión aprobada, identifica los campos nuevos y practica con un ejemplo permitido antes de usarla. Anota la duda concreta que necesitas resolver; así el apoyo de un compañero puede ser preciso."
+      },
+      {
+        "title": "Revisar la primera aplicación",
+        "text": "Compara tu primer registro con la instrucción actualizada y corrige lo necesario. En estos ejercicios se analiza una decisión en su contexto. Las afirmaciones Likert no diagnostican a la persona ni tienen claves: responde con referencia a tu forma habitual de actuar."
+      }
+    ],
+    "example": {
+      "situation": "La oficina reemplaza una planilla manual por un formulario institucional.",
+      "action": "Participar en la orientación, practicar el registro y preguntar por el campo que aún no comprendes.",
+      "why": "La adaptación se concreta en aprender y ejecutar el cambio, conservando el cuidado del trabajo."
+    },
+    "pitfalls": [
+      "Mantener la versión anterior únicamente porque ya la conoces.",
+      "Usar la nueva herramienta sin comprender sus campos esenciales."
+    ],
+    "recall": {
+      "prompt": "¿Qué tres acciones te ayudan ante una herramienta nueva?",
+      "answer": "Revisar la instrucción, practicar de forma permitida y aclarar la dificultad específica."
+    },
+    "questions": [
+      {
+        "stem": "La oficina activa una nueva plantilla y retira la anterior. ¿Qué actuación muestra mejor el criterio de adaptación de esta práctica?",
+        "options": [
+          "Usar la anterior hasta que un compañero prepare todos tus registros.",
+          "Revisar los cambios, probar la plantilla con un ejemplo permitido y aclarar dudas antes de registrar.",
+          "Copiar tus datos en todos los campos nuevos para mantener la velocidad."
+        ],
+        "answer": 1,
+        "explanation": "Revisar y practicar permite aplicar el cambio con cuidado. Delegar toda la tarea evita aprender; llenar campos sin comprenderlos puede producir errores.",
+        "id": "adaptabilidad-q1",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Una instrucción actualizada modifica la secuencia de una tarea que realizas a diario. ¿Cómo actuar?",
+        "options": [
+          "Aplicar la secuencia vigente y consultar el punto que resulte ambiguo.",
+          "Mantener la secuencia anterior hasta que aparezca un error.",
+          "Combinar las dos secuencias según cuál paso te resulte más cómodo."
+        ],
+        "answer": 0,
+        "explanation": "Aplicar y aclarar permite ajustar el trabajo a la instrucción. Esperar un error aplaza la adaptación; combinar versiones sin revisión puede romper la coherencia del procedimiento.",
+        "id": "adaptabilidad-q2",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Te asignan apoyo temporal en una tarea diferente y dentro de tus funciones. No conoces un paso clave. ¿Qué opción facilita adaptarte?",
+        "options": [
+          "Rechazar toda la tarea porque aún no la dominas.",
+          "Imitar lo que recuerdas haber visto sin revisar instrucciones.",
+          "Solicitar orientación sobre ese paso y realizar la tarea con los controles indicados."
+        ],
+        "answer": 2,
+        "explanation": "Pedir apoyo específico permite aprender y cumplir. Rechazar toda la tarea bloquea el ajuste; imitar sin verificar expone la calidad del resultado.",
+        "id": "adaptabilidad-q3",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Un compañero propone una manera diferente de ordenar el trabajo, compatible con las instrucciones vigentes. ¿Qué respuesta favorece el aprendizaje?",
+        "options": [
+          "Descartarla porque tu forma ya es conocida.",
+          "Escuchar la propuesta y evaluar con un ejemplo si facilita la tarea.",
+          "Adoptarla para todo el equipo sin comprobar su funcionamiento."
+        ],
+        "answer": 1,
+        "explanation": "Escuchar y probar de forma acotada permite aprender de otra perspectiva. Descartarla por costumbre cierra el aprendizaje; extenderla sin comprobación apresura un cambio.",
+        "id": "adaptabilidad-q4",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "adaptabilidad-l1",
+        "statement": "Cuando cambia una herramienta de trabajo, busco una oportunidad para practicar su uso."
+      },
+      {
+        "id": "adaptabilidad-l2",
+        "statement": "Me resulta cómodo mantener una rutina conocida mientras se incorpora una instrucción nueva."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Diccionario de Competencias · Resolución 000065 de 2024",
+        "url": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "label": "DIAN · Resolución 65 de 2024",
+        "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0065_2024.htm"
+      }
+    ]
+  },
+  {
+    "id": "etica1",
+    "stage": "competencias",
+    "title": "Coherencia en las decisiones cotidianas",
+    "indicator": "COMPORTAMIENTO ETICO NIVEL 1",
+    "minutes": 16,
+    "summary": "Analiza pequeñas decisiones de oficina que ponen a prueba el cuidado de la información y la coherencia de tus actuaciones.",
+    "objectives": [
+      "Relacionar una actuación cotidiana con el Código de Integridad.",
+      "Reconocer una duda ética y buscar orientación.",
+      "Elegir una corrección transparente ante un error."
+    ],
+    "sections": [
+      {
+        "title": "El foco del nivel 1",
+        "text": "El nivel 1 sitúa la integridad en el trabajo cotidiano. Estudia la decisión concreta: quién resulta afectado y qué valor debe guiar tu acción."
+      },
+      {
+        "title": "Hacer visible el problema",
+        "text": "En un ejercicio, enviaste un dato equivocado. Reconstruye qué pasó, identifica a quién informar y plantea la corrección por el canal correspondiente. Evita inventar una explicación para proteger tu imagen. La solución debe permitir que quienes dependen del dato trabajen con la versión correcta."
+      },
+      {
+        "title": "Criterios y autoinforme",
+        "text": "Para analizar casos, explica por qué una opción sirve mejor al criterio propuesto y qué falla en las otras. Es aprendizaje aplicado. En el autoinforme Likert no se ofrece una respuesta ideal: responde según tus conductas habituales, sin usar los casos como plantilla para aparentar un perfil."
+      }
+    ],
+    "example": {
+      "situation": "Encuentras en tu escritorio una copia con datos de un ciudadano que no necesitas para tu tarea.",
+      "action": "Protegerla y consultar al responsable cómo devolverla o gestionarla por el canal establecido.",
+      "why": "El acceso físico al documento no convierte su contenido en información de libre uso."
+    },
+    "pitfalls": [
+      "Hacer lo correcto solo cuando hay supervisión.",
+      "Encubrir un error pequeño y dejar que se propague."
+    ],
+    "recall": {
+      "prompt": "¿Qué revisas antes de actuar en una duda ética?",
+      "answer": "Los hechos, las personas afectadas, el valor aplicable y la instancia que puede orientar."
+    },
+    "sources": [
+      {
+        "label": "DIAN · Diccionario de Competencias · Resolución 000065 de 2024",
+        "url": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "label": "DIAN · Código de Integridad · CG-TAH-0002, versión 3",
+        "url": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "label": "Función Pública · Integridad y valores",
+        "url": "https://www.funcionpublica.gov.co/eva/admon/cursos/curso-integridad/recurso/media/glosario/glosario.html"
+      }
+    ],
+    "questions": [
+      {
+        "stem": "Descubres un error tuyo en un registro que ya usa otro equipo. ¿Qué actuación se alinea mejor con la coherencia de esta práctica?",
+        "options": [
+          "Informar el error y gestionar su corrección, avisando a quienes usan el registro.",
+          "Corregir tu copia y esperar que el otro equipo detecte la diferencia.",
+          "Atribuir el error al sistema para evitar afectar la confianza en tu trabajo."
+        ],
+        "answer": 0,
+        "explanation": "Informar y corregir evita que el dato incorrecto siga afectando el trabajo. Cambiar solo una copia deja el problema activo; atribuirlo al sistema sin evidencia distorsiona los hechos.",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf",
+        "id": "etica1-q1"
+      },
+      {
+        "stem": "Un conocido pide que consultes datos de un tercero, ajenos a tu tarea. ¿Cómo aplicar el criterio ético del ejercicio?",
+        "options": [
+          "Consultar los datos, pero sin enviarle una copia.",
+          "Declinar la consulta ajena a tu función y señalar el canal autorizado para solicitar información.",
+          "Pedir a un compañero que haga la consulta para no intervenir directamente."
+        ],
+        "answer": 1,
+        "explanation": "Respetar el propósito del acceso protege la información. Consultar sin copiar sigue siendo un uso ajeno a la función; trasladar la consulta no elimina el problema.",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf",
+        "id": "etica1-q2"
+      },
+      {
+        "stem": "Tienes dudas sobre si una actividad personal puede realizarse con recursos de la oficina. ¿Qué opción permite decidir con integridad?",
+        "options": [
+          "Usarlos durante pocos minutos porque el costo parece bajo.",
+          "Preguntar a un compañero si suele hacerlo y seguir su costumbre.",
+          "Consultar las reglas y la instancia correspondiente antes de usar los recursos."
+        ],
+        "answer": 2,
+        "explanation": "La consulta fundamentada evita decidir por conveniencia. El costo aparente no establece autorización; una costumbre tampoco sustituye las reglas aplicables.",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf",
+        "id": "etica1-q3"
+      },
+      {
+        "stem": "Una entrega requiere una validación y te sugieren marcarla como completada para mejorar el reporte del día. ¿Qué actuación conserva la coherencia?",
+        "options": [
+          "Marcarla como completa y obtener la validación al día siguiente.",
+          "Registrar su estado real y gestionar la validación pendiente.",
+          "Omitir la entrega del reporte para que no se vea el retraso."
+        ],
+        "answer": 1,
+        "explanation": "El estado real permite gestionar el pendiente con transparencia. Adelantar la marca hace pasar una actividad inconclusa por terminada; omitirla también distorsiona la información.",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf",
+        "id": "etica1-q4"
+      }
+    ],
+    "likert": [
+      {
+        "id": "etica1-l1",
+        "statement": "Cuando detecto un error en mi trabajo, suelo comunicarlo a quienes necesitan conocerlo."
+      },
+      {
+        "id": "etica1-l2",
+        "statement": "Si una decisión cotidiana me genera dudas, busco orientación antes de continuar."
+      }
+    ]
+  },
+  {
+    "id": "etica4",
+    "stage": "competencias",
+    "title": "Promover prácticas de integridad en el equipo",
+    "indicator": "COMPORTAMIENTO ETICO NIVEL 4",
+    "minutes": 18,
+    "summary": "Estudia el indicador de nivel 4 que incluiste en tu listado, mediante propuestas que ayudan al equipo a actuar con integridad.",
+    "objectives": [
+      "Distinguir cumplimiento individual de promoción colectiva.",
+      "Proponer una práctica preventiva dentro de tu alcance.",
+      "Reconocer los límites de una propuesta desde un cargo asistencial."
+    ],
+    "sections": [
+      {
+        "title": "El foco y el alcance",
+        "text": "El nivel 4 promueve estrategias y prácticas de integridad. Se incluye porque aparece en tu listado; este nivel de competencia no determina la jerarquía del puesto."
+      },
+      {
+        "title": "Una propuesta realizable",
+        "text": "Imagina que las personas nuevas repiten una duda sobre manejo de información. Puedes reunir preguntas frecuentes sin datos personales y proponer al responsable una breve actividad con ejemplos ficticios. El aporte asistencial se presenta por los canales del equipo; no requiere asumir autoridad para imponer reglas."
+      },
+      {
+        "title": "Revisar si una práctica ayuda",
+        "text": "Para estudiar, compara una charla aislada con una práctica que deja responsable, momento de revisión y mecanismo para aclarar dudas. Los ejercicios explican criterios educativos. La práctica Likert se responde con honestidad sobre tu comportamiento habitual y carece de clave de corrección."
+      }
+    ],
+    "example": {
+      "situation": "En el equipo se repite la entrega de documentos a destinatarios no verificados.",
+      "action": "Plantear al responsable un recordatorio de comprobación del destinatario y una revisión de su uso, con casos ficticios.",
+      "why": "La propuesta convierte una dificultad recurrente en una práctica preventiva compartida y revisable."
+    },
+    "pitfalls": [
+      "Considerar que promover integridad exige tener personal a cargo.",
+      "Presentar una propuesta como una orden que modifica reglas sin autorización."
+    ],
+    "recall": {
+      "prompt": "¿Qué diferencia estudias entre comportamiento ético nivel 1 y nivel 4?",
+      "answer": "En el nivel 1 aplicas integridad en tu trabajo; en el 4 también impulsas prácticas que favorecen su aplicación colectiva."
+    },
+    "sources": [
+      {
+        "label": "DIAN · Diccionario de Competencias · Resolución 000065 de 2024",
+        "url": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "label": "DIAN · Código de Integridad · CG-TAH-0002, versión 3",
+        "url": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "label": "Función Pública · Política de integridad",
+        "url": "https://www.funcionpublica.gov.co/eva/gerentes/Modulo2/tema-4/2-politica-integridad.html"
+      }
+    ],
+    "questions": [
+      {
+        "stem": "El equipo presenta dudas repetidas sobre cuándo puede compartir información. ¿Qué aporte asistencial se alinea mejor con la promoción de integridad de esta práctica?",
+        "options": [
+          "Resolver tus propias dudas y esperar que cada persona haga lo mismo.",
+          "Difundir documentos reales de ciudadanos para ilustrar todos los errores posibles.",
+          "Proponer al responsable una actividad con casos ficticios y un canal para aclarar dudas."
+        ],
+        "answer": 2,
+        "explanation": "La propuesta favorece aprendizaje compartido y protege los datos. Resolver solo lo propio tiene alcance individual; usar documentos reales innecesarios expone información.",
+        "id": "etica4-q1",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Quieres proponer una mejora ética, pero tu cargo es asistencial. ¿Qué actuación corresponde al alcance del escenario?",
+        "options": [
+          "Documentar la dificultad y presentar una propuesta al responsable por el canal del equipo.",
+          "Cambiar por tu cuenta las reglas para que todos deban seguir tu propuesta.",
+          "Abandonar la idea porque solo las jefaturas pueden hacer aportes preventivos."
+        ],
+        "answer": 0,
+        "explanation": "Una propuesta fundamentada permite aportar sin atribuirte autoridad. Imponer reglas excede el alcance; abandonar la idea reduce una oportunidad de colaboración.",
+        "id": "etica4-q2",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Se realizó una actividad sobre integridad y deseas ayudar a que su aprendizaje permanezca. ¿Qué alternativa aporta continuidad?",
+        "options": [
+          "Conservar solo la lista de asistencia como evidencia de que el problema terminó.",
+          "Proponer una revisión breve de dudas recurrentes y del uso de los acuerdos autorizados.",
+          "Enviar diariamente el mismo mensaje, sin revisar si sirve al equipo."
+        ],
+        "answer": 1,
+        "explanation": "Revisar dudas y aplicación conecta la actividad con la práctica. La asistencia no demuestra apropiación; repetir mensajes sin revisar su utilidad puede convertirse en rutina vacía.",
+        "id": "etica4-q3",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Un nuevo integrante observa que el equipo no aplica una práctica acordada de verificación. ¿Qué respuesta impulsa la integridad colectiva?",
+        "options": [
+          "Explicarle que primero debe adaptarse a las costumbres del equipo.",
+          "Pedirle que mantenga la observación en privado para conservar la imagen del grupo.",
+          "Escuchar el ejemplo y proponer al responsable revisar el acuerdo con el equipo."
+        ],
+        "answer": 2,
+        "explanation": "Escuchar y revisar permite aprender de la observación sin acusaciones precipitadas. Apelar a la costumbre perpetúa la desviación; ocultarla impide mejorar la práctica.",
+        "id": "etica4-q4",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "etica4-l1",
+        "statement": "Cuando observo una dificultad recurrente del equipo, suelo proponer una forma de prevenirla."
+      },
+      {
+        "id": "etica4-l2",
+        "statement": "Me resulta más natural aplicar una pauta personalmente que explicar a otros cómo podría ayudar al equipo."
+      }
+    ]
+  },
+  {
+    "id": "comunicacion1",
+    "stage": "competencias",
+    "title": "Escuchar, explicar y confirmar",
+    "indicator": "COMUNICACION EFECTIVA NIVEL 1",
+    "minutes": 15,
+    "summary": "Practica mensajes de oficina que permitan a otra persona realizar una acción sin adivinar lo que falta.",
+    "objectives": [
+      "Preguntar por la información necesaria.",
+      "Redactar una instrucción breve y precisa.",
+      "Confirmar la comprensión del mensaje."
+    ],
+    "sections": [
+      {
+        "title": "El foco del nivel 1",
+        "text": "El nivel 1 exige escucha y claridad con comprobación de comprensión. Para estudiar, separa lo que escuchaste de lo que estás suponiendo."
+      },
+      {
+        "title": "Construir una instrucción",
+        "text": "En un ejercicio de correspondencia, escribe destinatario, acción solicitada, referencia y plazo confirmado. Lee el mensaje desde la perspectiva de quien lo recibe: ¿puede saber qué debe hacer? Si falta un dato, pregunta antes de completar la instrucción."
+      },
+      {
+        "title": "Una comprobación concreta",
+        "text": "Pide a tu interlocutor que identifique el siguiente paso; así detectas una interpretación distinta a tiempo. Los casos de la lección son ejercicios educativos con justificación. Las afirmaciones Likert son autoinforme: se responden según tu comportamiento habitual y no tienen respuesta correcta."
+      }
+    ],
+    "example": {
+      "situation": "Un compañero dice «envía lo pendiente» sin identificar el documento ni el destinatario.",
+      "action": "Confirmar qué documento debe enviarse, a quién y por qué canal antes de actuar.",
+      "why": "Preguntar evita transformar una indicación ambigua en un envío equivocado."
+    },
+    "pitfalls": [
+      "Interpretar que decir «sí» equivale siempre a comprender.",
+      "Usar siglas que el interlocutor no conoce sin explicarlas."
+    ],
+    "recall": {
+      "prompt": "¿Cómo puedes comprobar una instrucción sin limitarte a preguntar «entendió»?",
+      "answer": "Pedir que la persona indique cuál será su siguiente paso y aclarar cualquier diferencia."
+    },
+    "questions": [
+      {
+        "stem": "Recibes la indicación «remite la carpeta al área correspondiente», sin precisar qué carpeta ni qué área. ¿Qué actuación facilita una comunicación efectiva?",
+        "options": [
+          "Preguntar cuál carpeta, a qué dependencia y por qué canal debe remitirse.",
+          "Enviar la carpeta más reciente al área que suele recibir documentos.",
+          "Esperar sin avisar hasta que quien dio la instrucción aporte más datos."
+        ],
+        "answer": 0,
+        "explanation": "La pregunta obtiene información indispensable para actuar. Suponer puede causar un envío erróneo; esperar sin comunicar mantiene bloqueada la tarea.",
+        "id": "comunicacion1-q1",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Explicas un paso a un ciudadano y este responde «sí», pero vuelve a preguntar por dónde empezar. ¿Cómo verificar comprensión?",
+        "options": [
+          "Preguntar nuevamente si entendió y aceptar otro «sí».",
+          "Solicitar que indique el primer paso y aclarar la parte que aún resulte confusa.",
+          "Repetir la instrucción completa usando más términos técnicos."
+        ],
+        "answer": 1,
+        "explanation": "Identificar el primer paso revela la comprensión práctica. La misma pregunta cerrada puede ocultar la dificultad; añadir tecnicismos aumenta la barrera.",
+        "id": "comunicacion1-q2",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Debes enviar a un compañero un mensaje sobre una entrega. ¿Qué texto facilita más la acción?",
+        "options": [
+          "«Hay varios asuntos para revisar cuando sea posible; quedo atento».",
+          "«Como siempre, envía lo necesario al lugar indicado».",
+          "«Remite la carpeta X al área Y por el canal Z antes del plazo confirmado»."
+        ],
+        "answer": 2,
+        "explanation": "La instrucción identifica objeto, destino, canal y tiempo del caso. Un mensaje general no define la tarea; apelar a lo habitual deja datos esenciales implícitos.",
+        "id": "comunicacion1-q3",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Un usuario termina de explicar su solicitud y crees haber comprendido. ¿Qué actuación reduce el riesgo de una interpretación equivocada?",
+        "options": [
+          "Responder de inmediato con la guía que tenías preparada.",
+          "Resumir brevemente la necesidad y confirmar si corresponde a lo que solicita.",
+          "Completar su solicitud con lo que suelen pedir otras personas."
+        ],
+        "answer": 1,
+        "explanation": "El resumen permite confirmar el significado antes de responder. La guía preparada puede no aplicar; completar con solicitudes frecuentes introduce suposiciones.",
+        "id": "comunicacion1-q4",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "comunicacion1-l1",
+        "statement": "Cuando recibo una instrucción ambigua, suelo preguntar por los datos que faltan."
+      },
+      {
+        "id": "comunicacion1-l2",
+        "statement": "Después de explicar una tarea, acostumbro verificar qué entendió la otra persona."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Diccionario de Competencias · Resolución 000065 de 2024",
+        "url": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "label": "DIAN · Resolución 65 de 2024",
+        "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0065_2024.htm"
+      }
+    ]
+  },
+  {
+    "id": "comunicacion2",
+    "stage": "competencias",
+    "title": "Adaptar el mensaje y el canal",
+    "indicator": "COMUNICACION EFECTIVA NIVEL 2",
+    "minutes": 17,
+    "summary": "Entrena conversaciones y mensajes en los que cambia el interlocutor, el contexto o el medio de comunicación.",
+    "objectives": [
+      "Ajustar palabras y canal al destinatario.",
+      "Expresar un desacuerdo con razones concretas.",
+      "Identificar contactos pertinentes para una coordinación."
+    ],
+    "sections": [
+      {
+        "title": "El foco del nivel 2",
+        "text": "El nivel 2 añade adaptación al interlocutor y al canal, comunicación asertiva y apertura a contactos. Mantiene la comprobación de comprensión del nivel 1."
+      },
+      {
+        "title": "El mismo contenido, otra presentación",
+        "text": "Ensaya explicar una instrucción a un compañero experto y a alguien que acaba de ingresar. Puedes cambiar palabras y cantidad de detalle conservando el contenido. Para un acuerdo con varias personas, elige un canal institucional que permita recibir preguntas y conservar las precisiones necesarias."
+      },
+      {
+        "title": "Coordinar sin distorsionar",
+        "text": "Ubica al contacto que realmente puede aclarar el asunto y comparte únicamente la información necesaria por el canal permitido. La práctica por casos enseña decisiones; el autoinforme Likert describe tu conducta habitual con honestidad, sin puntuar respuestas ni presentar una opción ideal."
+      }
+    ],
+    "example": {
+      "situation": "Un ciudadano y un compañero especializado necesitan conocer el mismo cambio en un instructivo.",
+      "action": "Explicar al ciudadano el paso práctico con palabras comunes y al compañero el detalle relevante para su tarea.",
+      "why": "La adaptación permite usar el mensaje manteniendo información consistente para ambos destinatarios."
+    },
+    "pitfalls": [
+      "Confundir concisión con omitir una condición esencial.",
+      "Cambiar la información para agradar al destinatario."
+    ],
+    "recall": {
+      "prompt": "¿Qué puede cambiar al adaptar un mensaje y qué debe conservarse?",
+      "answer": "Pueden cambiar el lenguaje, el detalle y el canal; deben conservarse la información y las condiciones pertinentes."
+    },
+    "questions": [
+      {
+        "stem": "Debes comunicar el mismo requisito a un compañero experto y a una persona que desconoce el trámite. ¿Qué adaptación facilita mejor la comprensión?",
+        "options": [
+          "Dar al ciudadano una versión más favorable del requisito para evitar tensión.",
+          "Usar en ambos casos la explicación técnica completa.",
+          "Mantener el requisito y ajustar palabras y detalle a cada interlocutor."
+        ],
+        "answer": 2,
+        "explanation": "Cambiar la presentación conservando el contenido atiende al destinatario. Modificar el requisito distorsiona la información; una única explicación técnica puede dificultar la comprensión.",
+        "id": "comunicacion2-q1",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "No estás de acuerdo con una propuesta de organización del equipo porque deja una tarea sin responsable. ¿Cómo expresarlo?",
+        "options": [
+          "Callar para mantener la cordialidad y resolver después lo que falte.",
+          "Señalar la tarea concreta, explicar el riesgo y proponer una asignación para revisar.",
+          "Descalificar la propuesta como poco seria ante los demás."
+        ],
+        "answer": 1,
+        "explanation": "El desacuerdo concreto y una alternativa facilitan revisar el problema. Callar lo oculta; descalificar a la persona o su trabajo dificulta el diálogo.",
+        "id": "comunicacion2-q2",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Una tarea necesita aclaración de un equipo con el que aún no has trabajado. ¿Qué uso de contactos resulta pertinente?",
+        "options": [
+          "Identificar el contacto competente y plantear la consulta por un canal institucional adecuado.",
+          "Enviar toda la documentación a varios contactos personales para obtener respuesta rápida.",
+          "Esperar que tu contacto habitual resuelva el asunto, aunque no sea de su competencia."
+        ],
+        "answer": 0,
+        "explanation": "Un contacto pertinente permite coordinar con propósito y canal adecuado. Difundir toda la documentación amplía accesos innecesarios; depender de alguien no competente puede prolongar la confusión.",
+        "id": "comunicacion2-q3",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Una instrucción con varias condiciones se explicó verbalmente y dos compañeros la interpretan distinto. ¿Qué canal complementario ayuda?",
+        "options": [
+          "Reenviar una frase corta que omita las condiciones para simplificar.",
+          "Repetirla individualmente sin dejar una versión común.",
+          "Confirmar las condiciones y compartir una precisión escrita en el canal institucional del equipo."
+        ],
+        "answer": 2,
+        "explanation": "Una precisión común facilita coherencia y consulta posterior. Omitir condiciones cambia el mensaje; explicaciones individuales sin referencia compartida pueden conservar diferencias.",
+        "id": "comunicacion2-q4",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "comunicacion2-l1",
+        "statement": "Al explicar una tarea, suelo ajustar el nivel de detalle a la experiencia del interlocutor."
+      },
+      {
+        "id": "comunicacion2-l2",
+        "statement": "Me resulta sencillo expresar un desacuerdo concreto sin dejar de escuchar la postura de otros."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Diccionario de Competencias · Resolución 000065 de 2024",
+        "url": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "label": "DIAN · Resolución 65 de 2024",
+        "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0065_2024.htm"
+      }
+    ]
+  },
+  {
+    "id": "logro1",
+    "stage": "competencias",
+    "title": "Organizar el trabajo y cumplir una meta",
+    "indicator": "ORIENTACION AL LOGRO NIVEL 1",
+    "minutes": 15,
+    "summary": "Convierte una tarea asignada en un plan pequeño que permita entregar un resultado completo.",
+    "objectives": [
+      "Precisar producto, plazo y criterio de calidad.",
+      "Organizar pasos y recursos de una tarea.",
+      "Revisar la entrega antes de reportar cumplimiento."
+    ],
+    "sections": [
+      {
+        "title": "El foco del nivel 1",
+        "text": "El nivel 1 centra la responsabilidad en cumplir la tarea asignada con calidad, tiempo y recursos. Empieza por definir qué significa terminarla."
+      },
+      {
+        "title": "Un plan pequeño",
+        "text": "Para una práctica de registro, identifica documentos de entrada, pasos, recursos y revisión final. Divide la jornada según la prioridad confirmada. Si falta un insumo, avisa con el dato concreto y realiza las partes que sí pueden avanzar sin generar inconsistencias."
+      },
+      {
+        "title": "Comprobar el resultado",
+        "text": "Contrasta lo entregado con lo pedido: cantidad, integridad y destino correcto. La ocupación durante la jornada no demuestra por sí sola que la tarea se completó. Los casos son pedagógicos; las afirmaciones Likert no tienen clave y se responden según tu comportamiento habitual."
+      }
+    ],
+    "example": {
+      "situation": "Debes registrar un lote de documentos dentro del plazo de la jornada.",
+      "action": "Confirmar qué debe quedar registrado, ordenar pasos y reservar tiempo para revisar el lote antes de entregar.",
+      "why": "Un plan con revisión conecta el esfuerzo con un producto completo y utilizable."
+    },
+    "pitfalls": [
+      "Contar actividad realizada sin revisar el producto.",
+      "Esperar hasta el cierre para avisar que falta un insumo."
+    ],
+    "recall": {
+      "prompt": "¿Qué debes aclarar al recibir una meta?",
+      "answer": "Qué producto se espera, para cuándo, con qué recursos y bajo qué criterio se acepta."
+    },
+    "questions": [
+      {
+        "stem": "Te asignan organizar un lote para entrega el mismo día. ¿Qué primer paso ayuda más a cumplir la meta?",
+        "options": [
+          "Confirmar contenido, destino, plazo y revisión esperada, y ordenar las actividades.",
+          "Empezar por las carpetas que te resulten más fáciles sin revisar la entrega total.",
+          "Dedicar la mayor parte de la jornada a diseñar un reporte de avance detallado."
+        ],
+        "answer": 0,
+        "explanation": "Precisar el resultado orienta los pasos necesarios. La comodidad puede desplazar prioridades; un reporte consume esfuerzo sin asegurar que el lote quede listo.",
+        "id": "logro1-q1",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "En una tarea detectas que falta un documento necesario para completarla. ¿Cómo responder dentro del criterio de cumplimiento?",
+        "options": [
+          "Esperar al cierre para informar que no fue posible terminar.",
+          "Completar el dato con una referencia de otro documento parecido.",
+          "Informar oportunamente el faltante y avanzar lo que sea válido mientras se gestiona."
+        ],
+        "answer": 2,
+        "explanation": "Comunicar temprano permite resolver el faltante y conservar avance útil. Avisar al cierre reduce posibilidades; completar por analogía puede producir un registro incorrecto.",
+        "id": "logro1-q2",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Ya ingresaste todos los registros previstos y aún hay tiempo para la revisión asignada. ¿Cómo cerrar la tarea?",
+        "options": [
+          "Reportar la meta completa porque la cantidad ingresada coincide.",
+          "Revisar campos y coincidencia con el lote antes de reportar la entrega.",
+          "Utilizar ese tiempo para comenzar otra tarea y dejar la revisión al receptor."
+        ],
+        "answer": 1,
+        "explanation": "La revisión comprueba que la cantidad se acompaña de calidad. Contar entradas no detecta errores; trasladar un control asignado deja el producto sin verificar.",
+        "id": "logro1-q3",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Dos tareas deben realizarse hoy y tienen prioridades diferentes confirmadas por el responsable. ¿Qué organización favorece el logro?",
+        "options": [
+          "Realizar primero la tarea que te agrada y explicar luego la demora.",
+          "Alternar cada pocos minutos sin reservar tiempo de cierre.",
+          "Planear según prioridad y plazo, comprobando el avance de cada entrega."
+        ],
+        "answer": 2,
+        "explanation": "Prioridad, plazo y revisión alinean el trabajo con lo pedido. La preferencia personal puede retrasar lo urgente; alternar sin plan puede dejar ambas tareas inconclusas.",
+        "id": "logro1-q4",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "logro1-l1",
+        "statement": "Antes de iniciar una tarea, suelo aclarar qué resultado debe quedar listo."
+      },
+      {
+        "id": "logro1-l2",
+        "statement": "Acostumbro reservar un momento para revisar la calidad de una entrega."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Diccionario de Competencias · Resolución 000065 de 2024",
+        "url": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "label": "DIAN · Resolución 65 de 2024",
+        "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0065_2024.htm"
+      }
+    ]
+  },
+  {
+    "id": "logro2",
+    "stage": "competencias",
+    "title": "Medir avances y resolver obstáculos",
+    "indicator": "ORIENTACION AL LOGRO NIVEL 2",
+    "minutes": 17,
+    "summary": "Practica cómo revisar una meta durante su ejecución y ajustar el trabajo cuando aparece una dificultad.",
+    "objectives": [
+      "Medir el avance con una evidencia útil.",
+      "Proponer una solución ante un obstáculo.",
+      "Conservar la calidad al ajustar un plan."
+    ],
+    "sections": [
+      {
+        "title": "El foco del nivel 2",
+        "text": "El nivel 2 añade seguimiento medido y soluciones a dificultades imprevistas. Frente al nivel 1, observa el avance y adapta el plan con evidencia."
+      },
+      {
+        "title": "Medir lo que permite decidir",
+        "text": "En una práctica con un lote de 30 registros, compara registros completos, pendientes y rechazados en una revisión intermedia. Elige un dato que revele si debes ajustar el ritmo o pedir un insumo. Una cifra útil ayuda a decidir la siguiente acción."
+      },
+      {
+        "title": "Ajustar sin ocultar",
+        "text": "Describe el obstáculo, sus efectos y las alternativas compatibles con tu función. Comunica a tiempo la que necesita decisión del responsable. Los casos educativos tienen una justificación situacional. En Likert responde con honestidad por tu comportamiento habitual, sin usar resultados pedagógicos como claves del autoinforme."
+      }
+    ],
+    "example": {
+      "situation": "A mitad de jornada aparecen registros duplicados y la cantidad completada es menor que la prevista.",
+      "action": "Medir el pendiente real, identificar la duplicidad y proponer un ajuste de trabajo sin omitir los controles.",
+      "why": "El dato permite atender la causa del atraso y tomar una decisión sustentada."
+    },
+    "pitfalls": [
+      "Tomar una cifra alta de actividad como prueba de calidad.",
+      "Recuperar el ritmo suprimiendo una validación necesaria."
+    ],
+    "recall": {
+      "prompt": "¿Qué hace útil una medida de avance?",
+      "answer": "Que permita comparar el resultado con la meta y decidir una acción concreta para mejorar o completar."
+    },
+    "questions": [
+      {
+        "stem": "A mitad de jornada has digitado muchas filas, pero varias requieren corrección. ¿Qué medida orienta mejor el avance de la meta?",
+        "options": [
+          "Total de minutos permanecidos frente al computador.",
+          "Número de filas completas y revisadas frente al total previsto.",
+          "Cantidad de veces que abriste el archivo de trabajo."
+        ],
+        "answer": 1,
+        "explanation": "El resultado completo y revisado permite comparar con la meta. Tiempo empleado y aperturas describen actividad, pero no muestran cuánto producto utilizable existe.",
+        "id": "logro2-q1",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "La herramienta oficial falla y amenaza un plazo. Existe una alternativa de contingencia autorizada. ¿Qué actuación se alinea con la solución responsable de esta práctica?",
+        "options": [
+          "Comunicar la falla, aplicar la contingencia autorizada y controlar los pendientes.",
+          "Registrar como terminadas las tareas para mantener el indicador del día.",
+          "Crear una herramienta personal con datos reales sin revisar autorización."
+        ],
+        "answer": 0,
+        "explanation": "La contingencia autorizada permite avanzar con trazabilidad. Registrar tareas inconclusas distorsiona resultados; improvisar una herramienta con datos reales introduce un tratamiento no verificado.",
+        "id": "logro2-q2",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Al comparar el avance con la meta, identificas que una forma de trabajo genera reprocesos. ¿Cómo mejorar?",
+        "options": [
+          "Aumentar la velocidad usando el mismo método y eliminar la revisión.",
+          "Atribuir los reprocesos a la carga de trabajo y mantener el plan.",
+          "Analizar el punto que falla y proponer un ajuste verificable dentro del procedimiento."
+        ],
+        "answer": 2,
+        "explanation": "Revisar la causa y verificar el ajuste permite mejorar el resultado. Acelerar sin control puede multiplicar errores; mantener el plan sin analizar conserva el problema.",
+        "id": "logro2-q3",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Un obstáculo exige una decisión de otra dependencia y tu meta puede retrasarse. ¿Qué comunicación ayuda a gestionar el logro?",
+        "options": [
+          "Avisar solo que «hay dificultades» sin precisar nada más.",
+          "Informar el pendiente, su impacto y una alternativa para que el responsable decida a tiempo.",
+          "No avisar mientras intentas resolverlo por tu cuenta hasta el vencimiento."
+        ],
+        "answer": 1,
+        "explanation": "La información específica permite decidir con tiempo. Un aviso vago no orienta la intervención; guardar silencio puede impedir una solución coordinada.",
+        "id": "logro2-q4",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "logro2-l1",
+        "statement": "Durante una tarea, suelo revisar el avance comparándolo con el resultado esperado."
+      },
+      {
+        "id": "logro2-l2",
+        "statement": "Cuando aparece un obstáculo, me cuesta modificar un plan que ya había organizado."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Diccionario de Competencias · Resolución 000065 de 2024",
+        "url": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "label": "DIAN · Resolución 65 de 2024",
+        "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0065_2024.htm"
+      }
+    ]
+  },
+  {
+    "id": "equipo",
+    "stage": "competencias",
+    "title": "Cumplir acuerdos y colaborar",
+    "indicator": "TRABAJO EN EQUIPO NIVEL 1",
+    "minutes": 15,
+    "summary": "Entrena situaciones donde tu entrega afecta la tarea de un compañero y el resultado común.",
+    "objectives": [
+      "Precisar acuerdos y entregas del equipo.",
+      "Avisar cuando una dificultad afecta a otros.",
+      "Colaborar conservando responsabilidades y controles."
+    ],
+    "sections": [
+      {
+        "title": "El foco del nivel 1",
+        "text": "El nivel 1 pone el acento en participar, colaborar y cumplir acuerdos comunes. Identifica cuál es tu aporte y quién depende de él."
+      },
+      {
+        "title": "Una entrega entre personas",
+        "text": "Para practicar, dibuja mentalmente una cadena: una persona clasifica, otra registra y otra revisa. Señala qué dato debe acompañar cada entrega. Si cambias algo que afecta al siguiente paso, conversa con el equipo antes de hacerlo; una mejora individual debe considerar el resultado compartido."
+      },
+      {
+        "title": "Ayudar con coordinación",
+        "text": "Una oferta de ayuda útil identifica una tarea, el tiempo disponible y la responsabilidad que conservas. Los casos se corrigen con un criterio educativo. El autoinforme Likert no mide tu valor como persona ni presenta respuestas ideales: contesta según tu comportamiento habitual."
+      }
+    ],
+    "example": {
+      "situation": "Tu compañero no puede iniciar la revisión porque una parte del lote que debes entregar está pendiente.",
+      "action": "Informar el estado real, acordar la entrega parcial válida y coordinar el cierre del pendiente.",
+      "why": "La comunicación permite organizar el trabajo común y evita que el retraso quede oculto."
+    },
+    "pitfalls": [
+      "Cambiar un acuerdo unilateralmente porque te resulta más cómodo.",
+      "Ofrecer ayuda y descuidar una responsabilidad propia sin coordinar."
+    ],
+    "recall": {
+      "prompt": "¿Qué información debes compartir cuando tu tarea afecta al equipo?",
+      "answer": "Qué está listo, qué falta, cómo impacta el acuerdo y qué ajuste propones coordinar."
+    },
+    "questions": [
+      {
+        "stem": "Un acuerdo establece que entregarás un lote a las 11:00 y adviertes una dificultad antes de esa hora. ¿Qué actuación favorece al equipo?",
+        "options": [
+          "Guardar silencio y entregar cuando finalmente puedas.",
+          "Avisar al responsable y al compañero afectado, indicando el pendiente y un ajuste posible.",
+          "Entregar el lote como completo, aunque falten documentos por revisar."
+        ],
+        "answer": 1,
+        "explanation": "Un aviso concreto permite reorganizar el trabajo común. El silencio deja a otros esperando; presentar un lote incompleto como final traslada errores a la siguiente tarea.",
+        "id": "equipo-q1",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Terminaste tu actividad y un compañero tiene una tarea del equipo retrasada. ¿Cómo colaborar?",
+        "options": [
+          "Ofrecer apoyo en una parte concreta y coordinar cómo se realizará y revisará.",
+          "Asumir toda su tarea sin avisar para demostrar que puedes resolverla.",
+          "Considerar que el resultado de su tarea no tiene relación con el objetivo común."
+        ],
+        "answer": 0,
+        "explanation": "La ayuda coordinada facilita el resultado compartido y conserva claridad. Asumir todo sin avisar confunde responsabilidades; desentenderse ignora la interdependencia del equipo.",
+        "id": "equipo-q2",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Encuentras una forma más cómoda de nombrar archivos, pero el equipo usa una convención acordada. ¿Qué hacer?",
+        "options": [
+          "Cambiar los nombres de tu parte sin comunicarlo porque trabajarás más rápido.",
+          "Mantener siempre la convención sin permitir que se planteen mejoras.",
+          "Proponer la mejora y revisar con el equipo su compatibilidad antes de modificar el acuerdo."
+        ],
+        "answer": 2,
+        "explanation": "Revisar juntos permite mejorar sin romper la coordinación. Cambiar unilateralmente puede dificultar búsquedas; prohibir propuestas impide aprender.",
+        "id": "equipo-q3",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "stem": "Una reunión define tareas y tienes una duda sobre quién realizará la revisión final. ¿Qué participación resulta útil?",
+        "options": [
+          "Esperar que otra persona mencione la duda si también la tiene.",
+          "Preguntar y dejar claro el acuerdo de revisión antes de comenzar.",
+          "Aceptar la tarea y suponer que la revisión le corresponde al compañero más experimentado."
+        ],
+        "answer": 1,
+        "explanation": "Aclarar el acuerdo previene un vacío de responsabilidad. Esperar o suponer mantiene la incertidumbre y puede dejar la entrega sin revisión.",
+        "id": "equipo-q4",
+        "source": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "equipo-l1",
+        "statement": "Cuando una dificultad mía puede afectar a otros, suelo comunicarla oportunamente."
+      },
+      {
+        "id": "equipo-l2",
+        "statement": "Antes de ofrecer apoyo adicional, reviso cómo conservar los compromisos que ya asumí."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Diccionario de Competencias · Resolución 000065 de 2024",
+        "url": "https://www.dian.gov.co/dian/entidad/Documents/Diccionario-de-Competencias-Comportamentales-Res-065-2024.pdf"
+      },
+      {
+        "label": "DIAN · Resolución 65 de 2024",
+        "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0065_2024.htm"
+      }
+    ]
+  },
+  {
+    "id": "compromiso",
+    "stage": "integridad",
+    "title": "Darle sentido público a tu trabajo",
+    "indicator": "COMPROMISO",
+    "minutes": 14,
+    "summary": "Conecta las tareas pequeñas de oficina con la ayuda concreta que recibe una persona.",
+    "objectives": [
+      "Reconocer el efecto de una tarea en el ciudadano.",
+      "Escuchar una necesidad sin tratar el servicio como un favor.",
+      "Identificar un aprendizaje que mejore tu función."
+    ],
+    "sections": [
+      {
+        "title": "El valor en una frase",
+        "text": "Compromiso implica disposición para comprender necesidades y asumir el sentido del servicio público. Aquí estudias el valor de integridad indicado en tu listado."
+      },
+      {
+        "title": "Una tarea con efecto visible",
+        "text": "Imagina que radicar bien un documento permite que otro equipo lo encuentre y atienda la solicitud. Describe a quién ayuda tu tarea y qué sucede si queda pendiente. Para estudiar, convierte esa relación en una acción concreta: revisar el dato que permite localizar la solicitud."
+      },
+      {
+        "title": "Aprender para servir",
+        "text": "Cuando te falta dominio de una tarea, anota la dificultad y usa la capacitación disponible para resolverla. El caso educativo analiza una actuación; la práctica Likert es autoinforme sin respuesta correcta. Describe honestamente tu conducta habitual y no una imagen que quieras proyectar."
+      }
+    ],
+    "example": {
+      "situation": "Un ciudadano necesita saber cómo consultar el estado de su solicitud y tú estás cerrando una tarea interna.",
+      "action": "Escuchar, brindar la orientación disponible dentro de tu función y organizar el cierre de tu tarea.",
+      "why": "Relacionar la tarea interna con el servicio ayuda a gestionar ambas responsabilidades con propósito."
+    },
+    "pitfalls": [
+      "Presentar la orientación como un favor personal.",
+      "Considerar irrelevante una tarea de apoyo porque no toma decisiones de fondo."
+    ],
+    "recall": {
+      "prompt": "¿Cómo encuentras el sentido de una tarea de apoyo?",
+      "answer": "Identificando a quién permite avanzar y qué acción concreta garantiza que la tarea le resulte útil."
+    },
+    "questions": [
+      {
+        "stem": "Un ciudadano necesita una orientación sencilla dentro de tu función. ¿Qué respuesta se alinea mejor con el compromiso de este ejercicio?",
+        "options": [
+          "Escuchar y orientar con disposición, reconociendo que forma parte del servicio.",
+          "Ayudar únicamente si el usuario reconoce el esfuerzo como un favor.",
+          "Entregarle cualquier guía para cerrar rápido la conversación."
+        ],
+        "answer": 0,
+        "explanation": "La disposición se concreta en una orientación pertinente. Condicionarla al agradecimiento trata el servicio como favor; una guía cualquiera no atiende la necesidad identificada.",
+        "id": "compromiso-q1",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Una tarea de apoyo te parece repetitiva y poco visible. ¿Qué enfoque puede ayudarte a cumplirla con sentido público?",
+        "options": [
+          "Dedicarle menos cuidado porque la decisión final la toma otra persona.",
+          "Identificar cómo tu entrega permite que otros atiendan correctamente una solicitud.",
+          "Buscar que otra persona asuma la tarea para concentrarte en actividades más reconocidas."
+        ],
+        "answer": 1,
+        "explanation": "Comprender el efecto de la entrega conecta tu responsabilidad con el servicio. Restar cuidado puede afectar a quienes dependen de ella; desplazarla por visibilidad no resuelve el compromiso asignado.",
+        "id": "compromiso-q2",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Detectas que desconoces una herramienta necesaria para una atención que harás la próxima semana. ¿Qué actuación expresa mejor disposición para mejorar tu función?",
+        "options": [
+          "Esperar a la atención para pedir que un compañero haga todo.",
+          "Memorizar un par de respuestas sin practicar el uso de la herramienta.",
+          "Aprovechar la orientación disponible y practicar las funciones que necesitarás."
+        ],
+        "answer": 2,
+        "explanation": "Prepararte permite prestar un servicio con mayor dominio. Delegar todo a última hora evita aprender; memorizar respuestas no resuelve el uso de la herramienta.",
+        "id": "compromiso-q3",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Durante una orientación revisas continuamente mensajes personales y pierdes parte de la explicación. ¿Qué ajuste ayuda a comprender la necesidad?",
+        "options": [
+          "Pedir al usuario que repita mientras continúas atendiendo los mensajes.",
+          "Apartar la distracción y escuchar antes de decidir cómo orientar.",
+          "Responder con la solución más frecuente para compensar el tiempo perdido."
+        ],
+        "answer": 1,
+        "explanation": "Atender plenamente permite comprender. Repetir con la misma distracción conserva el problema; responder por frecuencia puede ignorar lo que la persona necesita.",
+        "id": "compromiso-q4",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "compromiso-l1",
+        "statement": "Suelo identificar cómo una tarea de apoyo afecta la atención de otra persona."
+      },
+      {
+        "id": "compromiso-l2",
+        "statement": "Cuando una función requiere un aprendizaje nuevo, busco prepararme para realizarla."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Código de Integridad · CG-TAH-0002, versión 3 (20/12/2023)",
+        "url": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "label": "Función Pública · Código de Integridad del Servicio Público Colombiano",
+        "url": "https://www.funcionpublica.gov.co/documents/28587425/34877072/2019-08-21_Codigo_integridad.pdf"
+      }
+    ]
+  },
+  {
+    "id": "diligencia",
+    "stage": "integridad",
+    "title": "Cuidar tiempo, calidad y recursos",
+    "indicator": "DILIGENCIA",
+    "minutes": 15,
+    "summary": "Practica decisiones en las que avanzar a tiempo exige atención a los detalles y buen uso de los recursos.",
+    "objectives": [
+      "Distinguir rapidez de una entrega completa.",
+      "Organizar prioridades con los plazos aplicables.",
+      "Detectar un uso evitable de recursos."
+    ],
+    "sections": [
+      {
+        "title": "El valor en una frase",
+        "text": "Diligencia vincula atención, prontitud y calidad con el cuidado de recursos. En el estudio, pregunta si la entrega realmente puede usarse."
+      },
+      {
+        "title": "Revisión con propósito",
+        "text": "En un lote de documentos, revisa el dato que permite identificar cada pieza y el destino de entrega. Una comprobación breve puede evitar horas de reproceso. Para practicar, elige controles relacionados con el error del caso y explica por qué aportan valor."
+      },
+      {
+        "title": "Una prioridad que permita avanzar",
+        "text": "Si hay varias tareas, compara plazos y efectos de retrasarlas; confirma una prioridad cuando corresponda. Los casos se califican con un criterio educativo situacional. En Likert responde por tu comportamiento habitual: no hay clave ni una puntuación que describa tu valor como persona."
+      }
+    ],
+    "example": {
+      "situation": "Debes imprimir un documento para una entrega y descubres que el archivo contiene una versión anterior.",
+      "action": "Confirmar la versión correcta antes de imprimir y revisar el número de copias requerido.",
+      "why": "La comprobación evita entregar información desactualizada y gastar material en un producto que no sirve."
+    },
+    "pitfalls": [
+      "Entregar deprisa y trasladar al receptor la revisión asignada.",
+      "Usar recursos sin comprobar qué necesita realmente la tarea."
+    ],
+    "recall": {
+      "prompt": "¿Qué combinación debes revisar al aplicar diligencia?",
+      "answer": "Oportunidad, calidad de la entrega y uso razonable de tiempo y recursos."
+    },
+    "questions": [
+      {
+        "stem": "Debes entregar un archivo pronto y detectas que falta una validación asignada. ¿Qué decisión conserva mejor la diligencia en este caso?",
+        "options": [
+          "Entregarlo ya y solicitar que el receptor haga tu validación.",
+          "Omitir la validación porque es más importante demostrar rapidez.",
+          "Realizar o gestionar la validación e informar oportunamente cualquier impacto en el plazo."
+        ],
+        "answer": 2,
+        "explanation": "Gestionar el control y el plazo busca un producto completo. Transferirlo sin acuerdo deja tu tarea inconclusa; omitirlo confunde rapidez con calidad.",
+        "id": "diligencia-q1",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Te piden copias de un documento y no se ha precisado la cantidad. ¿Cómo usar responsablemente el recurso?",
+        "options": [
+          "Imprimir una cantidad amplia para evitar nuevas solicitudes.",
+          "Confirmar cantidad y versión antes de imprimir lo requerido.",
+          "Imprimir una sola copia y dar por resuelta la solicitud."
+        ],
+        "answer": 1,
+        "explanation": "Confirmar evita tanto desperdicio como entrega insuficiente. Imprimir de más consume recursos; suponer una sola copia puede incumplir la necesidad.",
+        "id": "diligencia-q2",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Una tarea con plazo confirmado debe hacerse hoy y otra puede realizarse mañana. Ambas son de tu responsabilidad. ¿Qué organización favorece diligencia?",
+        "options": [
+          "Programar primero la entrega de hoy con tiempo para revisarla.",
+          "Hacer la de mañana porque tiene pasos más sencillos.",
+          "Iniciar ambas sin definir qué debe quedar terminado primero."
+        ],
+        "answer": 0,
+        "explanation": "El plazo y la revisión orientan la prioridad. Elegir por comodidad puede retrasar una obligación; iniciar sin orden aumenta el riesgo de dejar entregas incompletas.",
+        "id": "diligencia-q3",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Descubres una duplicidad que obliga a repetir trabajo del equipo. ¿Qué aporte resulta más diligente?",
+        "options": [
+          "Seguir repitiéndolo para no modificar la rutina.",
+          "Eliminar por tu cuenta cualquier registro parecido.",
+          "Comunicar el ejemplo y proponer una verificación para prevenir la duplicidad."
+        ],
+        "answer": 2,
+        "explanation": "Una propuesta basada en el ejemplo puede reducir reprocesos. Mantener la rutina perpetúa el desperdicio; eliminar sin validación puede borrar registros distintos.",
+        "id": "diligencia-q4",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "diligencia-l1",
+        "statement": "Antes de entregar un producto, suelo revisar los detalles que podrían generar reproceso."
+      },
+      {
+        "id": "diligencia-l2",
+        "statement": "Cuando hay varios pendientes, me cuesta priorizar los que requieren una decisión oportuna."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Código de Integridad · CG-TAH-0002, versión 3 (20/12/2023)",
+        "url": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "label": "Función Pública · Código de Integridad del Servicio Público Colombiano",
+        "url": "https://www.funcionpublica.gov.co/documents/28587425/34877072/2019-08-21_Codigo_integridad.pdf"
+      }
+    ]
+  },
+  {
+    "id": "honestidad",
+    "stage": "integridad",
+    "title": "Decir la verdad y proteger el interés general",
+    "indicator": "HONESTIDAD",
+    "minutes": 17,
+    "summary": "Analiza cómo responder ante un error, una solicitud de favor o una situación que afecta tu imparcialidad.",
+    "objectives": [
+      "Comunicar hechos y errores sin distorsión.",
+      "Reconocer cuándo buscar orientación por un interés personal.",
+      "Conservar el uso autorizado de información y recursos."
+    ],
+    "sections": [
+      {
+        "title": "El valor en una frase",
+        "text": "Honestidad orienta a actuar con verdad y transparencia, favoreciendo el interés general. En cada ejercicio distingue el hecho confirmado de una explicación conveniente."
+      },
+      {
+        "title": "Una corrección trazable",
+        "text": "Si informaste un dato equivocado, precisa la corrección y la fuente de la versión válida. Para estudiar, redacta un aviso breve que permita al receptor reemplazar el dato. Evita inventar causas o cambiar silenciosamente una copia cuando otras personas dependen de la información."
+      },
+      {
+        "title": "Cuando interviene un interés personal",
+        "text": "Si una relación personal puede afectar el asunto que te asignaron, informa la situación y sigue la orientación del procedimiento aplicable. Los casos son pedagógicos, con justificación del criterio. En Likert responde según tu conducta habitual, sin intentar aparentar un perfil a partir de las claves del estudio."
+      }
+    ],
+    "example": {
+      "situation": "Un familiar pide que tramites antes su documento aprovechando que tú manejas el registro.",
+      "action": "Explicar que se sigue la ruta establecida y comunicar al responsable la relación cuando pueda afectar tu intervención.",
+      "why": "Hacer visible la situación permite gestionar el interés personal y conservar el criterio del trámite."
+    },
+    "pitfalls": [
+      "Ocultar información para evitar reconocer un error.",
+      "Suponer que un favor pequeño no afecta la imparcialidad."
+    ],
+    "recall": {
+      "prompt": "¿Qué hace honesta una corrección de información?",
+      "answer": "Reconocer el dato equivocado, comunicar la versión válida y permitir que las personas afectadas actualicen su trabajo."
+    },
+    "questions": [
+      {
+        "stem": "En un reporte consignaste una cantidad incorrecta y el responsable aún no la ha usado. ¿Cómo aplicar honestidad?",
+        "options": [
+          "Mantener el dato porque nadie ha advertido la diferencia.",
+          "Cambiarlo y explicar que la fuente estaba equivocada sin haberlo comprobado.",
+          "Avisar y enviar la corrección, identificando el dato válido."
+        ],
+        "answer": 2,
+        "explanation": "Avisar y corregir conserva información veraz para decidir. Mantener el error lo propaga; atribuirlo a una fuente sin evidencia añade otra distorsión.",
+        "id": "honestidad-q1",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Un conocido te ofrece un obsequio para que ayudes a acelerar su trámite. ¿Qué actuación protege mejor el interés general?",
+        "options": [
+          "Declinar el ofrecimiento y orientar por el procedimiento correspondiente.",
+          "Aceptar si el obsequio tiene poco valor y no prometes un resultado.",
+          "Pedir que entregue el obsequio después de la atención para evitar confusiones."
+        ],
+        "answer": 0,
+        "explanation": "Declinar mantiene la atención libre de un beneficio asociado al trámite. El valor bajo no cambia la finalidad del ofrecimiento; aplazarlo tampoco la elimina.",
+        "id": "honestidad-q2",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Te asignan un asunto que involucra a un familiar cercano y podría afectar tu imparcialidad. ¿Qué actuación permite gestionar la situación?",
+        "options": [
+          "Continuar y confiar en que nadie notará la relación.",
+          "Comunicar la relación y seguir el procedimiento e instrucciones aplicables para gestionar el conflicto.",
+          "Pedir al familiar que cambie de canal mientras tú sigues interviniendo."
+        ],
+        "answer": 1,
+        "explanation": "Informar permite evaluar y gestionar la intervención por la vía correspondiente. Ocultar la relación impide esa gestión; cambiar solo el canal no elimina tu participación.",
+        "id": "honestidad-q3",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Un compañero pide que registres como recibida una entrega que llegará más tarde. ¿Qué registro resulta honesto?",
+        "options": [
+          "Marcarla recibida porque hay una promesa confiable.",
+          "Marcarla recibida con una nota privada que nadie más pueda ver.",
+          "Mantener el estado real y actualizarlo cuando la entrega ocurra."
+        ],
+        "answer": 2,
+        "explanation": "El estado real evita usar una promesa como hecho. La confianza no equivale a recepción; una nota privada no corrige el significado del registro para otros usuarios.",
+        "id": "honestidad-q4",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "honestidad-l1",
+        "statement": "Cuando no tengo certeza sobre un dato, suelo decirlo antes de comunicarlo como confirmado."
+      },
+      {
+        "id": "honestidad-l2",
+        "statement": "Me resulta difícil reconocer un error si pienso que puede afectar cómo otros ven mi trabajo."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Código de Integridad · CG-TAH-0002, versión 3 (20/12/2023)",
+        "url": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "label": "Función Pública · Código de Integridad del Servicio Público Colombiano",
+        "url": "https://www.funcionpublica.gov.co/documents/28587425/34877072/2019-08-21_Codigo_integridad.pdf"
+      }
+    ]
+  },
+  {
+    "id": "justicia",
+    "stage": "integridad",
+    "title": "Decidir con evidencia y sin favoritismos",
+    "indicator": "JUSTICIA",
+    "minutes": 16,
+    "summary": "Entrena decisiones en las que debes aplicar criterios consistentes y considerar necesidades relevantes.",
+    "objectives": [
+      "Usar criterios y hechos para orientar una decisión.",
+      "Distinguir trato equitativo de favoritismo.",
+      "Identificar una presión personal que debe excluirse del criterio."
+    ],
+    "sections": [
+      {
+        "title": "El valor en una frase",
+        "text": "Justicia exige imparcialidad y protección de derechos con equidad. En los casos, identifica el criterio pertinente antes de comparar a las personas."
+      },
+      {
+        "title": "Comparar condiciones relevantes",
+        "text": "Para practicar, imagina una fila con una prioridad prevista en el protocolo del escenario. Compara los requisitos de esa prioridad y no tu simpatía por cada usuario. Si desconoces un hecho relevante, pide la información necesaria antes de resolver dentro de tu alcance."
+      },
+      {
+        "title": "Explicar el criterio",
+        "text": "Escribe una explicación breve que pueda entender cualquier persona en la misma situación. Los casos usan criterios definidos para enseñar decisiones y no diagnosticar personalidad. Las afirmaciones Likert se contestan con honestidad según el comportamiento habitual, sin claves ni respuestas ideales."
+      }
+    ],
+    "example": {
+      "situation": "Dos solicitudes tienen condiciones equivalentes, pero una proviene de una persona conocida por el equipo.",
+      "action": "Aplicar el orden y los criterios establecidos, sin dar ventaja por la relación.",
+      "why": "El conocimiento personal no constituye un criterio pertinente para cambiar la atención del escenario."
+    },
+    "pitfalls": [
+      "Confundir equidad con atender primero a quien más presiona.",
+      "Tomar una decisión por apariencia sin verificar el dato relevante."
+    ],
+    "recall": {
+      "prompt": "¿Qué puedes preguntar para detectar favoritismo?",
+      "answer": "Si usarías el mismo criterio ante otra persona con las mismas condiciones relevantes."
+    },
+    "questions": [
+      {
+        "stem": "Dos usuarios cumplen las mismas condiciones y se atienden según un orden definido. Uno es tu conocido y pide pasar primero. ¿Qué decisión es imparcial?",
+        "options": [
+          "Atenderlo primero si su solicitud parece breve.",
+          "Mantener el orden establecido sin ventaja por la relación.",
+          "Preguntar a la fila si acepta el cambio sin revisar el criterio institucional."
+        ],
+        "answer": 1,
+        "explanation": "Aplicar el mismo criterio a condiciones equivalentes evita favoritismo. La duración aparente no justifica cambiarlo; consultar a la fila no sustituye el orden establecido en el caso.",
+        "id": "justicia-q1",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "En este escenario, un protocolo prevé atención prioritaria para una condición específica y verificable. ¿Cómo aplicar equidad?",
+        "options": [
+          "Aplicar la prioridad conforme al protocolo cuando se verifica la condición.",
+          "Ignorar la prioridad para que todas las personas esperen exactamente lo mismo.",
+          "Extender la prioridad a cualquier persona que manifieste estar molesta."
+        ],
+        "answer": 0,
+        "explanation": "Aplicar una prioridad prevista reconoce una condición relevante. Ignorarla elimina la protección del protocolo; ampliarla por presión reemplaza el criterio definido.",
+        "id": "justicia-q2",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Se te pide clasificar una solicitud y la información necesaria para aplicar el criterio está incompleta. ¿Qué decisión se apoya en evidencia?",
+        "options": [
+          "Clasificar por la apariencia del usuario para agilizar.",
+          "Usar la clasificación de una persona parecida atendida ayer.",
+          "Verificar la información necesaria y aplicar el criterio correspondiente."
+        ],
+        "answer": 2,
+        "explanation": "Los datos pertinentes sustentan la clasificación. La apariencia y un parecido con otro caso no demuestran las condiciones de esta solicitud.",
+        "id": "justicia-q3",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Un usuario fue descortés contigo y vuelve con una solicitud que cumple los requisitos. ¿Cómo conservar imparcialidad?",
+        "options": [
+          "Aplicar los mismos criterios a su solicitud y manejar el trato por los canales pertinentes.",
+          "Postergar la solicitud hasta que cambie su actitud.",
+          "Exigir una condición adicional para que comprenda la importancia del respeto."
+        ],
+        "answer": 0,
+        "explanation": "Separar el criterio del trámite de la reacción personal protege la imparcialidad. Postergar por disgusto o inventar condiciones introduce una consecuencia ajena a los requisitos del escenario.",
+        "id": "justicia-q4",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "justicia-l1",
+        "statement": "Antes de comparar dos solicitudes, suelo identificar qué condiciones son relevantes para atenderlas."
+      },
+      {
+        "id": "justicia-l2",
+        "statement": "Cuando una persona cercana pide una excepción, me cuesta mantener el mismo criterio de atención."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Código de Integridad · CG-TAH-0002, versión 3 (20/12/2023)",
+        "url": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "label": "Función Pública · Código de Integridad del Servicio Público Colombiano",
+        "url": "https://www.funcionpublica.gov.co/documents/28587425/34877072/2019-08-21_Codigo_integridad.pdf"
+      }
+    ]
+  },
+  {
+    "id": "respeto",
+    "stage": "integridad",
+    "title": "Trato digno y diálogo",
+    "indicator": "RESPETO",
+    "minutes": 14,
+    "summary": "Practica respuestas que permiten corregir, discrepar o afrontar tensión conservando la dignidad de las personas.",
+    "objectives": [
+      "Reconocer palabras y gestos que afectan el trato.",
+      "Expresar una diferencia sin descalificar.",
+      "Escuchar una perspectiva distinta antes de responder."
+    ],
+    "sections": [
+      {
+        "title": "El valor en una frase",
+        "text": "Respeto reconoce la dignidad de cada persona. En un ejercicio, evalúa las palabras y los gestos, además de la exactitud del contenido."
+      },
+      {
+        "title": "Corregir una acción",
+        "text": "Si un compañero cometió un error, describe el dato y su efecto para el trabajo. Propón revisar la corrección sin convertir el hecho en un juicio sobre su capacidad. Para practicar, transforma una frase acusatoria en una observación concreta que permita actuar."
+      },
+      {
+        "title": "Diferencias y tensión",
+        "text": "Escucha la explicación distinta a la tuya y responde con razones pertinentes. Puedes mantener una decisión o un límite sin burlas ni desprecio. Los casos son educativos. El autoinforme Likert carece de respuestas correctas: responde según cómo sueles actuar, de forma honesta."
+      }
+    ],
+    "example": {
+      "situation": "Un usuario interpreta una instrucción de forma equivocada y hace la misma pregunta varias veces.",
+      "action": "Reformular la explicación con un tono tranquilo y confirmar dónde está la dificultad.",
+      "why": "La repetición de la pregunta puede mostrar una barrera de comprensión y se aborda sin ridiculizar a la persona."
+    },
+    "pitfalls": [
+      "Usar sarcasmo aunque la información sea correcta.",
+      "Confundir desacuerdo con un defecto personal del interlocutor."
+    ],
+    "recall": {
+      "prompt": "¿Cómo conviertes una crítica en una observación respetuosa?",
+      "answer": "Describiendo el hecho concreto, su efecto y la corrección posible, sin atacar a la persona."
+    },
+    "questions": [
+      {
+        "stem": "Un usuario hace por tercera vez una pregunta sobre la instrucción que diste. ¿Qué respuesta conserva un trato digno?",
+        "options": [
+          "Explicar que las otras personas comprendieron y pedirle más atención.",
+          "Usar una broma sobre su dificultad para disminuir la tensión.",
+          "Reformular la explicación y preguntar qué parte sigue siendo confusa."
+        ],
+        "answer": 2,
+        "explanation": "Reformular atiende la barrera sin ridiculizar. Compararlo con otros descalifica; una broma sobre su dificultad puede resultar hiriente y no aclarar el paso.",
+        "id": "respeto-q1",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Un compañero cometió un error en un registro. ¿Cómo señalarlo con respeto?",
+        "options": [
+          "Mostrar el campo concreto y proponer revisar juntos la corrección.",
+          "Decir frente al equipo que nunca revisa bien su trabajo.",
+          "Comentar el error a otros sin hablar con quien puede corregirlo."
+        ],
+        "answer": 0,
+        "explanation": "Una observación concreta facilita corregir el trabajo y conserva dignidad. Generalizar públicamente ataca a la persona; comentarlo a terceros no aporta una corrección directa.",
+        "id": "respeto-q2",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Otro integrante propone una organización que difiere de tu preferencia. ¿Qué respuesta favorece un diálogo respetuoso?",
+        "options": [
+          "Interrumpir para aclarar que tu experiencia demuestra la mejor forma.",
+          "Escuchar sus razones, plantear las tuyas y revisar el efecto de cada alternativa.",
+          "Aceptar sin escuchar para evitar cualquier conversación difícil."
+        ],
+        "answer": 1,
+        "explanation": "Escuchar y argumentar permite valorar las alternativas. Interrumpir desestima la perspectiva; aceptar automáticamente evita una revisión útil para el equipo.",
+        "id": "respeto-q3",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "stem": "Debes explicar un límite del trámite a una persona molesta. ¿Qué actuación conserva el respeto en el escenario?",
+        "options": [
+          "Responder con ironía para que reconozca lo exagerado de su reacción.",
+          "Cambiar el requisito para evitar la conversación.",
+          "Explicar el límite con calma y orientar la alternativa disponible sin descalificar."
+        ],
+        "answer": 2,
+        "explanation": "Un límite puede comunicarse con trato digno y orientación. La ironía aumenta la tensión; cambiar el requisito por malestar distorsiona el trámite.",
+        "id": "respeto-q4",
+        "source": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      }
+    ],
+    "likert": [
+      {
+        "id": "respeto-l1",
+        "statement": "Cuando tengo una opinión distinta, suelo escuchar los argumentos de la otra persona."
+      },
+      {
+        "id": "respeto-l2",
+        "statement": "En situaciones de tensión, me cuesta cuidar el tono con el que expreso una instrucción."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIAN · Código de Integridad · CG-TAH-0002, versión 3 (20/12/2023)",
+        "url": "https://www.dian.gov.co/atencionciudadano/LMDP/Talento-Humano/Desarrollo-del-Talento-Humano/Codigo/CG-TAH-0002.pdf"
+      },
+      {
+        "label": "Función Pública · Código de Integridad del Servicio Público Colombiano",
+        "url": "https://www.funcionpublica.gov.co/documents/28587425/34877072/2019-08-21_Codigo_integridad.pdf"
+      }
+    ]
+  }
+]

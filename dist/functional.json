@@ -1,0 +1,918 @@
+[
+  {
+    "id": "oficina",
+    "stage": "oficina",
+    "title": "Una oficina que funciona",
+    "indicator": "FUNCIONAMIENTO DE OFICINA",
+    "minutes": 15,
+    "summary": "Organiza tareas, reuniones y entregas con criterios verificables: plazo, impacto, responsable y evidencia de cierre.",
+    "objectives": [
+      "Priorizar con las restricciones del caso.",
+      "Preparar reuniones sin cruces de agenda.",
+      "Entregar trabajo con un registro comprensible."
+    ],
+    "sections": [
+      {
+        "title": "Tu tablero mínimo",
+        "text": "Registra cada tarea con producto esperado, responsable, vencimiento y estado. Compara plazos y consecuencias antes de escoger. Si una actividad depende de otra persona, solicita el insumo pronto y reserva tiempo para revisar."
+      },
+      {
+        "title": "Agenda y recursos",
+        "text": "Para una reunión confirma participantes, disponibilidad, duración, sala o enlace y objetivo. En Outlook una cita personal sirve de recordatorio; una reunión incluye asistentes. Comprueba cambios para que la agenda compartida permita coordinar."
+      },
+      {
+        "title": "Un cierre observable",
+        "text": "Un trabajo termina cuando el producto cumple lo solicitado y llega a su destinatario. Conserva evidencia de envío o recepción según el procedimiento. Antes de entregar, verifica nombres, fechas, anexos y versión. Estas son pautas de práctica, no un procedimiento exclusivo de la DIAN."
+      }
+    ],
+    "example": {
+      "situation": "A las 9:00 debes entregar a las 10:00 un reporte de diez minutos. Otro informe vence mañana y necesita un dato de una colega.",
+      "action": "Pide de inmediato el dato pendiente, completa y revisa el reporte urgente; después prepara el informe del día siguiente.",
+      "why": "Puedes activar una dependencia sin abandonar el producto que vence primero."
+    },
+    "pitfalls": [
+      "Confundir una tarea iniciada con una tarea entregada.",
+      "Asignar prioridad solo por quién solicita o por el tamaño del documento."
+    ],
+    "recall": {
+      "prompt": "¿Qué cuatro datos permiten seguir una tarea?",
+      "answer": "Producto esperado, responsable, vencimiento y estado; añade evidencia cuando se cierre."
+    },
+    "sources": [
+      {
+        "label": "DIAN · Modelo de gestión institucional",
+        "url": "https://www.dian.gov.co/dian/entidad/PlanEvalInstitucional/Modelo-de-Gestion-Institucional-DIAN.pdf"
+      },
+      {
+        "label": "Microsoft · Citas y reuniones",
+        "url": "https://support.microsoft.com/es-es/outlook/create-or-schedule-an-appointment"
+      },
+      {
+        "label": "AGN · Inventarios y transferencias",
+        "url": "https://archivogeneral.gov.co/metodologia-para-la-elaboracion-de-inventarios-y-transferencias-documentales"
+      }
+    ],
+    "questions": [
+      {
+        "id": "oficina-q1",
+        "stem": "Tienes un reporte de 15 minutos que vence en 45 minutos y una actualización de 30 minutos que vence mañana. Ambos insumos están disponibles. ¿Cómo organizas el primer bloque?",
+        "options": [
+          "Completar y revisar el reporte que vence hoy.",
+          "Actualizar primero porque tarda más.",
+          "Alternar cada dos minutos entre ambos."
+        ],
+        "answer": 0,
+        "explanation": "A cumple el vencimiento cercano y deja margen de revisión. B usa la duración como único criterio. C añade cambios de contexto sin una necesidad del caso.",
+        "source": "https://www.dian.gov.co/dian/entidad/PlanEvalInstitucional/Modelo-de-Gestion-Institucional-DIAN.pdf"
+      },
+      {
+        "id": "oficina-q2",
+        "stem": "Debes convocar a cuatro colegas el jueves de 10:00 a 10:30. Ya confirmaste que todos están disponibles. ¿Qué registro permite invitarlos formalmente desde Outlook?",
+        "options": [
+          "Una cita personal sin asistentes.",
+          "Una reunión con asistentes, horario y ubicación o enlace.",
+          "Un recordatorio personal sin fecha de finalización."
+        ],
+        "answer": 1,
+        "explanation": "B comunica la convocatoria y sus datos a las personas invitadas. A permanece en el calendario personal. C no transmite la reunión ni su duración al equipo.",
+        "source": "https://support.microsoft.com/es-es/outlook/create-or-schedule-an-appointment"
+      },
+      {
+        "id": "oficina-q3",
+        "stem": "Un reporte debe incluir dos anexos. El texto está revisado y tienes los archivos correctos. Antes de enviarlo, ¿qué control aporta más al cumplimiento?",
+        "options": [
+          "Enviar y esperar a que el destinatario reporte errores.",
+          "Renombrar el texto para que diga versión final.",
+          "Verificar destinatario, archivos adjuntos y coherencia con lo anunciado."
+        ],
+        "answer": 2,
+        "explanation": "C verifica la entrega completa antes de producir un error. A traslada la revisión al destinatario. B cambia una etiqueta y no comprueba los anexos.",
+        "source": "https://www.dian.gov.co/dian/entidad/PlanEvalInstitucional/Modelo-de-Gestion-Institucional-DIAN.pdf"
+      },
+      {
+        "id": "oficina-q4",
+        "stem": "Una sala está reservada de 9:00 a 10:00 y de 10:30 a 11:00. Necesitas 30 minutos y 10 minutos adicionales para dejarla lista antes de la siguiente reunión. ¿Qué decisión respeta las restricciones?",
+        "options": [
+          "Reservar de 10:00 a 10:30 y limpiar después.",
+          "Buscar otro horario o sala y confirmar la nueva disponibilidad.",
+          "Ocupar de 9:50 a 10:20 porque casi no hay cruce."
+        ],
+        "answer": 1,
+        "explanation": "B permite cubrir 40 minutos sin invadir reservas. A deja cero minutos de preparación entre reuniones. C cruza una reserva vigente durante diez minutos.",
+        "source": "https://support.microsoft.com/es-es/outlook/create-modify-or-delete-a-meeting-request-or-appointment-in-outlook-com"
+      },
+      {
+        "id": "oficina-q5",
+        "stem": "Recibirás una oficina durante una ausencia de dos semanas. Hay tareas pendientes y expedientes en préstamo. ¿Qué entrega te permite continuar con mayor control?",
+        "options": [
+          "Una lista de nombres de personas que podrían saber.",
+          "Una descripción general de la carga laboral.",
+          "Un registro de pendientes con plazos y responsables, más ubicación y préstamos documentados."
+        ],
+        "answer": 2,
+        "explanation": "C permite ejecutar y localizar elementos concretos. A depende de reconstruir información mediante terceros. B explica la carga, pero no el estado ni la ubicación de los asuntos.",
+        "source": "https://archivogeneral.gov.co/metodologia-para-la-elaboracion-de-inventarios-y-transferencias-documentales"
+      },
+      {
+        "id": "oficina-q6",
+        "stem": "El consolidado vence a las 16:00. A las 14:00 falta un dato externo indispensable y el responsable no contesta. El procedimiento permite escalar bloqueos. ¿Cuál es la mejor acción?",
+        "options": [
+          "Registrar el bloqueo, escalarlo por el canal definido y avanzar en las partes verificadas.",
+          "Completar el dato con una estimación sin identificarla.",
+          "Esperar hasta las 16:00 antes de avisar."
+        ],
+        "answer": 0,
+        "explanation": "A deja trazabilidad y margen para resolver la dependencia. B presenta un dato no validado como cierto. C consume el tiempo de respuesta y oculta el riesgo hasta el vencimiento.",
+        "source": "https://www.dian.gov.co/dian/entidad/PlanEvalInstitucional/Modelo-de-Gestion-Institucional-DIAN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "documental",
+    "stage": "oficina",
+    "title": "Del documento al expediente",
+    "indicator": "GESTION DOCUMENTAL",
+    "minutes": 20,
+    "summary": "Sigue el documento desde su recepción hasta su recuperación, conservando el vínculo con el trámite que lo produjo.",
+    "objectives": [
+      "Diferenciar clasificación y ordenación.",
+      "Mantener íntegro un expediente.",
+      "Registrar ubicación y movimiento documental."
+    ],
+    "sections": [
+      {
+        "title": "Primero identifica",
+        "text": "Pregunta quién produjo el documento, qué función cumplió y a qué trámite pertenece. Clasificar lo ubica en la agrupación correspondiente; ordenar establece su secuencia. Un expediente reúne actuaciones relacionadas, no solo papeles de aspecto parecido."
+      },
+      {
+        "title": "Dos preguntas de archivo",
+        "text": "Procedencia: ¿qué dependencia produjo el conjunto? Orden original: ¿qué secuencia tuvo el trámite? Un oficio de respuesta debe conservar su relación con la solicitud. Ordenar toda la oficina por tamaño o por remitente puede romper esos vínculos."
+      },
+      {
+        "title": "Encontrar sin perder control",
+        "text": "El inventario ayuda a identificar y localizar documentos. Un préstamo necesita un registro que permita saber quién tiene el expediente y cuándo debe devolverlo. La información electrónica requiere controles de integridad, acceso y recuperación; un escaneo por sí solo no resuelve su gestión."
+      }
+    ],
+    "example": {
+      "situation": "Tres solicitudes de personas distintas dieron lugar a respuestas y comprobantes de entrega.",
+      "action": "Relaciona cada solicitud con su propia respuesta y comprobante, identifica el expediente y registra su ubicación.",
+      "why": "Podrás reconstruir cada trámite sin mezclar las actuaciones de los otros casos."
+    },
+    "pitfalls": [
+      "Separar todas las respuestas de todas las solicitudes sin conservar el vínculo de expediente.",
+      "Suponer que cualquier archivo digital se puede eliminar después de imprimirlo."
+    ],
+    "recall": {
+      "prompt": "¿Clasificar y ordenar significan lo mismo?",
+      "answer": "No. Clasificar identifica la agrupación; ordenar organiza su secuencia conforme al trámite."
+    },
+    "sources": [
+      {
+        "label": "AGN · Ley 594 de 2000",
+        "url": "https://normativa.archivogeneral.gov.co/ley-594-de-2000/"
+      },
+      {
+        "label": "AGN · Cartilla de ordenación documental",
+        "url": "https://www.archivogeneral.gov.co/caja_de_herramientas/docs/5.%20organizacion/DOCUMENTOS%20TECNICOS/CARTILLA%20DE%20ORDENACION%20DOCUMENTAL.pdf"
+      },
+      {
+        "label": "AGN · Acuerdo 001 de 2024",
+        "url": "https://normativa.archivogeneral.gov.co/wp-content/uploads/2024/04/2024-02_29_AcuerdoAGN-FIRMADO.pdf"
+      },
+      {
+        "label": "AGN · Inventarios y transferencias",
+        "url": "https://archivogeneral.gov.co/metodologia-para-la-elaboracion-de-inventarios-y-transferencias-documentales"
+      }
+    ],
+    "questions": [
+      {
+        "id": "documental-q1",
+        "stem": "Una dependencia produce actas de un comité en ejercicio de sus funciones. ¿Qué criterio debe orientar inicialmente su clasificación?",
+        "options": [
+          "El número de hojas de cada acta.",
+          "La función productora y la serie o subserie correspondiente.",
+          "El color de la carpeta disponible."
+        ],
+        "answer": 1,
+        "explanation": "B conserva el contexto funcional. A y C son características físicas que no identifican por sí mismas la agrupación archivística.",
+        "source": "https://normativa.archivogeneral.gov.co/ley-594-de-2000/"
+      },
+      {
+        "id": "documental-q2",
+        "stem": "Un trámite contiene solicitud, requerimiento, respuesta al requerimiento y decisión. ¿Qué organización conserva mejor el orden original?",
+        "options": [
+          "Agrupar los documentos por la longitud de su título.",
+          "Poner primero todas las decisiones de todos los trámites.",
+          "Mantener la secuencia de actuaciones de este trámite."
+        ],
+        "answer": 2,
+        "explanation": "C refleja cómo se desarrolló el caso. A usa un criterio ajeno al procedimiento. B separa documentos relacionados y mezcla distintos expedientes.",
+        "source": "https://www.archivogeneral.gov.co/caja_de_herramientas/docs/5.%20organizacion/DOCUMENTOS%20TECNICOS/CARTILLA%20DE%20ORDENACION%20DOCUMENTAL.pdf"
+      },
+      {
+        "id": "documental-q3",
+        "stem": "Un colega solicita un expediente físico para consultarlo durante dos días. El protocolo prevé préstamo registrado. ¿Cómo lo entregas?",
+        "options": [
+          "Registrando expediente, persona, fecha y compromiso de devolución.",
+          "Entregándolo sin registro porque es un colega conocido.",
+          "Sustituyendo el expediente por una carpeta vacía en la estantería."
+        ],
+        "answer": 0,
+        "explanation": "A permite seguir el movimiento. B depende de la memoria y de la confianza personal. C señala una ausencia, pero no identifica al custodio ni el plazo.",
+        "source": "https://archivogeneral.gov.co/metodologia-para-la-elaboracion-de-inventarios-y-transferencias-documentales"
+      },
+      {
+        "id": "documental-q4",
+        "stem": "Una solicitud y su respuesta están en carpetas diferentes porque una llegó en papel y la otra por correo institucional. ¿Qué objetivo debe guiar su organización?",
+        "options": [
+          "Eliminar el correo y conservar solo el papel.",
+          "Conservar el vínculo de ambas actuaciones dentro del expediente, con los controles aplicables a cada soporte.",
+          "Archivar cada soporte por separado sin identificación común."
+        ],
+        "answer": 1,
+        "explanation": "B conserva la unidad del trámite incluso con soportes distintos. A elimina evidencia sin aplicar reglas de disposición. C impide reconstruir el caso mediante un vínculo verificable.",
+        "source": "https://normativa.archivogeneral.gov.co/wp-content/uploads/2024/04/2024-02_29_AcuerdoAGN-FIRMADO.pdf"
+      },
+      {
+        "id": "documental-q5",
+        "stem": "Una oficina propone mezclar expedientes de dos dependencias porque tratan temas parecidos. ¿Qué deberías comprobar antes de agruparlos?",
+        "options": [
+          "Si todos caben en una caja.",
+          "Si sus carpetas tienen el mismo formato.",
+          "Su procedencia, funciones y clasificación aprobada."
+        ],
+        "answer": 2,
+        "explanation": "C permite respetar el origen y la organización funcional. A solo mide capacidad física. B compara presentación sin determinar pertenencia archivística.",
+        "source": "https://normativa.archivogeneral.gov.co/ley-594-de-2000/"
+      },
+      {
+        "id": "documental-q6",
+        "stem": "Se digitaliza un expediente y la persona responsable desea desechar los originales ese mismo día. ¿Qué respuesta aplica un control adecuado?",
+        "options": [
+          "Verificar TRD, valor documental y procedimiento autorizado antes de cualquier eliminación.",
+          "Eliminar porque el escaneo siempre reemplaza jurídicamente al original.",
+          "Conservar únicamente la primera página de cada actuación."
+        ],
+        "answer": 0,
+        "explanation": "A revisa los criterios que gobiernan la disposición. B atribuye al escaneo un efecto automático que no tiene. C destruye partes del expediente por un criterio arbitrario.",
+        "source": "https://normativa.archivogeneral.gov.co/wp-content/uploads/2024/04/2024-02_29_AcuerdoAGN-FIRMADO.pdf"
+      }
+    ]
+  },
+  {
+    "id": "trd",
+    "stage": "archivo",
+    "title": "Leer y aplicar una TRD",
+    "indicator": "TABLAS DE RETENCION",
+    "minutes": 20,
+    "summary": "Usa la tabla aplicable para decidir permanencia, transferencia y disposición; la antigüedad por sí sola no autoriza a eliminar.",
+    "objectives": [
+      "Leer dependencia, serie y subserie.",
+      "Distinguir archivo de gestión y archivo central.",
+      "Identificar cuándo transferir y cuándo consultar al responsable."
+    ],
+    "sections": [
+      {
+        "title": "La fila correcta",
+        "text": "Una TRD relaciona agrupaciones documentales con tiempos de permanencia y disposición final. Ubica la dependencia productora y la serie o subserie. Comprueba la versión y el período de aplicación; una fila de otra dependencia puede parecer similar y ser inadecuada."
+      },
+      {
+        "title": "Tiempo y movimiento",
+        "text": "La transferencia primaria lleva documentos del archivo de gestión al central; la secundaria, del central al histórico. En ejercicios lee el evento desde el que se cuenta el tiempo. Una edad de carpeta no equivale necesariamente al tiempo cumplido de un expediente cerrado."
+      },
+      {
+        "title": "Disposición con respaldo",
+        "text": "Conservar, seleccionar o eliminar son decisiones de valoración documentadas. Cumplir el tiempo no permite improvisar la destrucción. Verifica la tabla, inventario y procedimiento aplicable. Los tiempos de los casos de esta lección son ficticios para practicar lectura, no son la TRD de la DIAN."
+      }
+    ],
+    "example": {
+      "situation": "La fila ficticia indica dos años en gestión y ocho en central, contados en este caso desde el cierre. El expediente completó dos años en gestión.",
+      "action": "Prepara y verifica la transferencia al central con inventario y el procedimiento establecido.",
+      "why": "La primera permanencia terminó; todavía corresponde la fase central y la disposición prevista."
+    },
+    "pitfalls": [
+      "Usar la fecha del documento más antiguo como fecha automática de inicio del cómputo.",
+      "Interpretar una transferencia como permiso para eliminar."
+    ],
+    "recall": {
+      "prompt": "¿Qué compruebas antes de aplicar una fila?",
+      "answer": "Dependencia, serie o subserie, versión y período aplicable, cierre, tiempo cumplido y disposición indicada."
+    },
+    "sources": [
+      {
+        "label": "AGN · Política e instrumentos archivísticos",
+        "url": "https://archivogeneral.gov.co/politica"
+      },
+      {
+        "label": "AGN · Acuerdo 001 de 2024, título 5 y anexo 6",
+        "url": "https://normativa.archivogeneral.gov.co/wp-content/uploads/2024/04/2024-02_29_AcuerdoAGN-FIRMADO.pdf"
+      },
+      {
+        "label": "AGN · Inventarios y transferencias",
+        "url": "https://archivogeneral.gov.co/metodologia-para-la-elaboracion-de-inventarios-y-transferencias-documentales"
+      },
+      {
+        "label": "AGN · Ingresos documentales",
+        "url": "https://www.archivogeneral.gov.co/ingresos-documentales"
+      }
+    ],
+    "questions": [
+      {
+        "id": "trd-q1",
+        "stem": "Necesitas conocer cuánto permanece una serie documental en gestión y qué ocurre después. ¿Qué instrumento consultas primero?",
+        "options": [
+          "La lista de contactos de la oficina.",
+          "La TRD aplicable a la dependencia y serie.",
+          "El calendario de reuniones."
+        ],
+        "answer": 1,
+        "explanation": "B vincula retención y disposición con la agrupación documental. A y C sirven para otros fines y no establecen esas decisiones.",
+        "source": "https://archivogeneral.gov.co/politica"
+      },
+      {
+        "id": "trd-q2",
+        "stem": "Un expediente pasa, con el procedimiento e inventario correspondientes, del archivo de gestión al archivo central. ¿Qué movimiento se describe?",
+        "options": [
+          "Una transferencia secundaria.",
+          "Una eliminación definitiva.",
+          "Una transferencia primaria."
+        ],
+        "answer": 2,
+        "explanation": "C identifica el paso gestión-central. A corresponde al paso central-histórico. B implica destrucción autorizada, no cambio de custodia.",
+        "source": "https://archivogeneral.gov.co/metodologia-para-la-elaboracion-de-inventarios-y-transferencias-documentales"
+      },
+      {
+        "id": "trd-q3",
+        "stem": "Una fila ficticia exige 3 años en gestión desde el cierre y 7 años en central desde la transferencia. Un expediente cerrado hace 3 años completó su período en gestión. ¿Qué sigue?",
+        "options": [
+          "Preparar la transferencia al central.",
+          "Eliminar porque ya cumplió tres años.",
+          "Transferir directamente al histórico omitiendo el central."
+        ],
+        "answer": 0,
+        "explanation": "A respeta ambas permanencias. B ignora los siete años de fase central. C salta una fase expresamente requerida en el ejercicio.",
+        "source": "https://archivogeneral.gov.co/metodologia-para-la-elaboracion-de-inventarios-y-transferencias-documentales"
+      },
+      {
+        "id": "trd-q4",
+        "stem": "Dos oficinas tienen una serie con nombre parecido y tiempos diferentes en sus tablas. ¿Qué permite escoger la fila correcta?",
+        "options": [
+          "Elegir la que conserva por menos años.",
+          "Identificar oficina productora, función, serie y tabla aplicable.",
+          "Elegir la fila con el código más corto."
+        ],
+        "answer": 1,
+        "explanation": "B relaciona el documento con su contexto de producción. A optimiza espacio sin justificar la aplicación. C usa una característica del código sin significado suficiente.",
+        "source": "https://archivogeneral.gov.co/politica"
+      },
+      {
+        "id": "trd-q5",
+        "stem": "Una carpeta comenzó en 2020, el expediente cerró en 2024 y en este ejercicio la retención empieza al cierre. En 2026 debe cumplir 4 años en gestión. ¿Qué afirmación es correcta?",
+        "options": [
+          "Cumplió seis años de retención porque empezó en 2020.",
+          "Se elimina al completar dos años, aunque la tabla diga cuatro.",
+          "Lleva dos años desde el cierre y aún no completa los cuatro exigidos."
+        ],
+        "answer": 2,
+        "explanation": "C utiliza el evento de inicio expresamente indicado. A confunde apertura con cierre. B sustituye el tiempo de la tabla por otro sin sustento.",
+        "source": "https://normativa.archivogeneral.gov.co/wp-content/uploads/2024/04/2024-02_29_AcuerdoAGN-FIRMADO.pdf"
+      },
+      {
+        "id": "trd-q6",
+        "stem": "La disposición final de una serie es eliminación y ya cumplió su retención. El inventario y las autorizaciones del procedimiento aún no se han preparado. ¿Qué corresponde?",
+        "options": [
+          "Completar los controles y el procedimiento antes de eliminar.",
+          "Destruir hoy y elaborar el acta después.",
+          "Guardar una foto de la caja y considerarla autorización."
+        ],
+        "answer": 0,
+        "explanation": "A evita convertir el cumplimiento de tiempo en una autorización automática. B invierte la secuencia de controles. C registra un objeto físico, pero no acredita la decisión ni los expedientes afectados.",
+        "source": "https://normativa.archivogeneral.gov.co/wp-content/uploads/2024/04/2024-02_29_AcuerdoAGN-FIRMADO.pdf"
+      }
+    ]
+  },
+  {
+    "id": "dian",
+    "stage": "entidad",
+    "title": "Comprender el papel de la DIAN",
+    "indicator": "MISIONALIDAD DE LA DIAN",
+    "minutes": 15,
+    "summary": "Relaciona servicio, obligaciones tributarias, aduanas y control con el propósito de financiar el Estado mediante contribuciones justas.",
+    "objectives": [
+      "Reconocer los ámbitos de actuación institucional.",
+      "Diferenciar registro, recaudo y control.",
+      "Conectar el apoyo administrativo con el servicio público."
+    ],
+    "sections": [
+      {
+        "title": "Propósito y funciones",
+        "text": "La DIAN contribuye al financiamiento estatal mediante la gestión de obligaciones de su competencia. El Decreto 1742 aborda impuestos nacionales, gestión aduanera y control cambiario dentro del ámbito asignado; no convierte a la entidad en autoridad universal de todo asunto económico."
+      },
+      {
+        "title": "Servicio y control",
+        "text": "Orientar al usuario facilita el cumplimiento; verificar obligaciones permite detectar incumplimientos. Son acciones complementarias. En un cargo de apoyo, recibir, organizar y canalizar información correctamente permite que los responsables actúen con mejores datos."
+      },
+      {
+        "title": "RUT y NIT",
+        "text": "El RUT es el registro para identificar, ubicar y clasificar a los sujetos correspondientes. El NIT es su identificador tributario. Tener registro no equivale a haber pagado una obligación. Para casos específicos consulta el canal oficial y evita inventar condiciones."
+      }
+    ],
+    "example": {
+      "situation": "Una persona presenta su RUT y pregunta si ese documento demuestra que ya pagó el impuesto de renta.",
+      "action": "Explica la diferencia entre registro e información de pago y orienta al servicio competente para verificar su obligación.",
+      "why": "Una herramienta de identificación no sustituye el comprobante ni el estado de cumplimiento."
+    },
+    "pitfalls": [
+      "Reducir toda la misión al recaudo y olvidar la facilitación y el control.",
+      "Suponer que la DIAN administra cualquier impuesto o cualquier operación financiera."
+    ],
+    "recall": {
+      "prompt": "¿El RUT prueba por sí solo el pago de un impuesto?",
+      "answer": "No. Identifica y clasifica al sujeto; el pago y la obligación deben verificarse con sus soportes y servicios correspondientes."
+    },
+    "sources": [
+      {
+        "label": "DIAN · Decreto 1742 de 2020, artículos 1 y 3",
+        "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1742_2020.htm"
+      },
+      {
+        "label": "DIAN · Plan estratégico 2024–2026, versión mayo 2026",
+        "url": "https://www.dian.gov.co/dian/entidad/PlanEvalInstitucional/Plan-Estrategico-Institucional-2026-V2.pdf"
+      },
+      {
+        "label": "DIAN · Preguntas frecuentes del RUT",
+        "url": "https://www.dian.gov.co/tramitesservicios/tramites-y-servicios/tributarios/Paginas/RUT.aspx"
+      },
+      {
+        "label": "DIAN · Modelo de gestión institucional",
+        "url": "https://www.dian.gov.co/dian/entidad/PlanEvalInstitucional/Modelo-de-Gestion-Institucional-DIAN.pdf"
+      }
+    ],
+    "questions": [
+      {
+        "id": "dian-q1",
+        "stem": "Una actividad busca facilitar que la ciudadanía cumpla correctamente sus obligaciones. ¿Qué relación guarda con la misión institucional?",
+        "options": [
+          "Es ajena a la misión porque no impone sanciones.",
+          "Solo sirve si produce cobro inmediato.",
+          "Apoya el cumplimiento y el financiamiento del Estado."
+        ],
+        "answer": 2,
+        "explanation": "C conecta la orientación con el propósito institucional. A desconoce el papel del servicio. B limita la utilidad a un resultado inmediato que el caso no exige.",
+        "source": "https://www.dian.gov.co/dian/entidad/PlanEvalInstitucional/Plan-Estrategico-Institucional-2026-V2.pdf"
+      },
+      {
+        "id": "dian-q2",
+        "stem": "Un usuario necesita identificar el registro administrado por la DIAN que contiene sus datos de ubicación y clasificación. ¿Qué instrumento corresponde?",
+        "options": [
+          "RUT.",
+          "Pasaporte.",
+          "Registro de matrícula de vehículo."
+        ],
+        "answer": 0,
+        "explanation": "A es el registro tributario indicado. B identifica para fines de viaje y nacionalidad. C pertenece a la identificación vehicular, no al registro descrito.",
+        "source": "https://www.dian.gov.co/tramitesservicios/tramites-y-servicios/tributarios/Paginas/RUT.aspx"
+      },
+      {
+        "id": "dian-q3",
+        "stem": "Un equipo revisa documentos de una importación y apoya la gestión de comercio exterior. ¿En qué ámbito principal se ubica el caso?",
+        "options": [
+          "Gestión de licencias urbanísticas.",
+          "Gestión aduanera.",
+          "Registro civil."
+        ],
+        "answer": 1,
+        "explanation": "B corresponde al movimiento internacional de mercancías del caso. A se refiere al ámbito urbanístico. C trata hechos del estado civil y no la operación descrita.",
+        "source": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1742_2020.htm"
+      },
+      {
+        "id": "dian-q4",
+        "stem": "Alguien afirma que la administración tributaria consiste exclusivamente en recibir pagos. ¿Cuál respuesta es más completa?",
+        "options": [
+          "Incluye también actuaciones como fiscalización, determinación, cobro y devolución, dentro de la competencia legal.",
+          "Solo incluye emitir facturas comerciales.",
+          "Comprende decidir todos los conflictos civiles entre contribuyentes."
+        ],
+        "answer": 0,
+        "explanation": "A reconoce funciones adicionales previstas para administrar obligaciones. B confunde una operación comercial con toda la administración. C extiende la competencia a conflictos civiles sin fundamento.",
+        "source": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1742_2020.htm"
+      },
+      {
+        "id": "dian-q5",
+        "stem": "Una solicitud llega al área de apoyo y exige una decisión técnica que tu cargo no está autorizado a emitir. ¿Qué acción contribuye mejor a la operación institucional?",
+        "options": [
+          "Emitir la decisión para disminuir la fila.",
+          "Registrar y canalizar al responsable competente con información completa.",
+          "Guardar la solicitud hasta que el usuario vuelva."
+        ],
+        "answer": 1,
+        "explanation": "B conecta el apoyo con el proceso responsable y permite continuar. A excede la autorización expresa del caso. C detiene el trámite sin razón ni seguimiento.",
+        "source": "https://www.dian.gov.co/dian/entidad/PlanEvalInstitucional/Modelo-de-Gestion-Institucional-DIAN.pdf"
+      },
+      {
+        "id": "dian-q6",
+        "stem": "Se comparan dos mejoras: una acorta la fila dando información incompleta; la otra reduce pasos redundantes y conserva orientación correcta. ¿Cuál aporta mejor al propósito descrito en la lección?",
+        "options": [
+          "La primera, porque el único resultado relevante es la rapidez.",
+          "Las dos son equivalentes porque reducen tiempo.",
+          "La segunda, porque facilita el cumplimiento con información confiable."
+        ],
+        "answer": 2,
+        "explanation": "C une eficiencia con utilidad del servicio. A omite la calidad que necesita el usuario. B iguala resultados aunque una alternativa aumenta errores de cumplimiento.",
+        "source": "https://www.dian.gov.co/dian/entidad/PlanEvalInstitucional/Plan-Estrategico-Institucional-2026-V2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "ofimatica",
+    "stage": "herramientas",
+    "title": "Herramientas para trabajar con precisión",
+    "indicator": "OFIMATICA",
+    "minutes": 20,
+    "summary": "Practica operaciones comunes de Excel, estructura documentos en Word y coordina información en el calendario.",
+    "objectives": [
+      "Elegir entre ordenar y filtrar.",
+      "Construir sumas y referencias al copiar fórmulas.",
+      "Usar estilos para documentos coherentes."
+    ],
+    "sections": [
+      {
+        "title": "Una tabla, una fila por registro",
+        "text": "Conserva cada registro unido al ordenar. Ordenar cambia la secuencia de filas; filtrar muestra las que cumplen un criterio. Filtrar no elimina los registros ocultos. Usa encabezados claros y verifica el rango de datos."
+      },
+      {
+        "title": "Fórmulas comprobables",
+        "text": "Una fórmula comienza con =. SUMA(B2:B5) suma ese rango. Al copiar hacia abajo, una referencia relativa como B2 cambia a B3; una absoluta como $E$1 mantiene fila y columna. Comprueba resultados con un caso pequeño antes de copiar masivamente."
+      },
+      {
+        "title": "Documentos y agenda",
+        "text": "En Word los estilos de título permiten una estructura coherente; cambiar el estilo actualiza los textos que lo usan. En Outlook diferencia una cita propia de una reunión con invitados. Los nombres de menús pueden variar por versión: aquí importa la operación."
+      }
+    ],
+    "example": {
+      "situation": "B2 contiene una cantidad y E1 una tarifa común. Vas a calcular importes en varias filas.",
+      "action": "En C2 usa =B2*$E$1 y copia hacia abajo; revisa que C3 use B3 y conserve E1.",
+      "why": "La cantidad debe seguir cada fila; la tarifa común debe permanecer fija."
+    },
+    "pitfalls": [
+      "Ordenar una sola columna dejando los datos del registro desalineados.",
+      "Confundir un dato oculto por filtro con un dato borrado."
+    ],
+    "recall": {
+      "prompt": "¿Qué cambia al copiar =B2*$E$1 una fila hacia abajo?",
+      "answer": "La fórmula pasa a =B3*$E$1: cambia B2 y permanece E1."
+    },
+    "sources": [
+      {
+        "label": "Microsoft · Ordenar datos",
+        "url": "https://support.microsoft.com/es-es/excel/sort-data-in-a-range-or-table-in-excel"
+      },
+      {
+        "label": "Microsoft · Tareas básicas y filtros",
+        "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel"
+      },
+      {
+        "label": "Microsoft · Función SUMA",
+        "url": "https://support.microsoft.com/es-es/excel/functions/sum-function"
+      },
+      {
+        "label": "Microsoft · Referencias de celda",
+        "url": "https://support.microsoft.com/es-es/excel/create-or-change-a-cell-reference"
+      },
+      {
+        "label": "Microsoft · Estilos de Word",
+        "url": "https://support.microsoft.com/es-ES/Word/differences-between-templates-themes-and-word-styles"
+      }
+    ],
+    "questions": [
+      {
+        "id": "ofimatica-q1",
+        "stem": "Un listado contiene solicitudes pendientes y resueltas. Quieres ver únicamente las pendientes sin borrar las otras. ¿Qué operación eliges?",
+        "options": [
+          "Eliminar todas las filas resueltas.",
+          "Filtrar la columna Estado por Pendiente.",
+          "Ordenar los nombres de usuarios alfabéticamente."
+        ],
+        "answer": 1,
+        "explanation": "B muestra el subconjunto y conserva el resto. A borra datos que deben permanecer. C cambia la secuencia, pero no limita la vista al estado pedido.",
+        "source": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel"
+      },
+      {
+        "id": "ofimatica-q2",
+        "stem": "B2=12, B3=8 y B4=10. ¿Qué fórmula suma exactamente estos tres valores?",
+        "options": [
+          "=SUMA(B2:B4)",
+          "=SUMA(B2;B4)",
+          "=B2*B3*B4"
+        ],
+        "answer": 0,
+        "explanation": "A incluye las tres celdas y da 30. B suma solo B2 y B4, dando 22. C multiplica y da 960; no calcula el total solicitado.",
+        "source": "https://support.microsoft.com/es-es/excel/functions/sum-function"
+      },
+      {
+        "id": "ofimatica-q3",
+        "stem": "Una tabla contiene Nombre, Radicado y Fecha. Debe ordenarse por fecha conservando las asociaciones. ¿Qué acción es adecuada?",
+        "options": [
+          "Ordenar solo la columna Fecha sin mover las otras.",
+          "Ordenar solo los radicados.",
+          "Ordenar la tabla completa usando Fecha como criterio."
+        ],
+        "answer": 2,
+        "explanation": "C mueve conjuntamente los campos de cada registro. A desasocia las fechas de nombres y radicados. B mantiene asociaciones si mueve filas completas, pero usa el criterio equivocado.",
+        "source": "https://support.microsoft.com/es-es/excel/sort-data-in-a-range-or-table-in-excel"
+      },
+      {
+        "id": "ofimatica-q4",
+        "stem": "C2 contiene =B2*$E$1. Copias la fórmula exactamente una fila hacia abajo, a C3. ¿Cuál es el resultado?",
+        "options": [
+          "=B2*$E$2",
+          "=B3*$E$1",
+          "=B3*E2"
+        ],
+        "answer": 1,
+        "explanation": "B desplaza la referencia relativa una fila y conserva la absoluta. A fija B2 indebidamente y cambia una referencia protegida. C omite la fijación de E1 y la desplaza.",
+        "source": "https://support.microsoft.com/es-es/excel/create-or-change-a-cell-reference"
+      },
+      {
+        "id": "ofimatica-q5",
+        "stem": "Un documento de Word tiene veinte títulos con el mismo estilo Título 1. Debes cambiar su apariencia de manera consistente. ¿Qué opción es más eficiente?",
+        "options": [
+          "Modificar uno por uno con formatos distintos.",
+          "Convertirlos en imágenes.",
+          "Modificar el estilo Título 1 usado por esos títulos."
+        ],
+        "answer": 2,
+        "explanation": "C aplica un cambio coherente a todos los títulos con ese estilo. A agrega trabajo y facilita inconsistencias. B pierde texto editable y estructura sin resolver el objetivo.",
+        "source": "https://support.microsoft.com/es-ES/Word/differences-between-templates-themes-and-word-styles"
+      },
+      {
+        "id": "ofimatica-q6",
+        "stem": "La tabla de atención está ordenada por Fecha ascendente y luego por Radicado ascendente. Dos solicitudes tienen la misma fecha y radicados 104 y 98, almacenados como números. ¿Cuál aparece primero?",
+        "options": [
+          "Radicado 98, porque desempata el segundo criterio numérico.",
+          "Radicado 104, porque empieza por 1.",
+          "No existe orden porque comparten la fecha."
+        ],
+        "answer": 0,
+        "explanation": "A sigue el orden numérico del segundo nivel: 98 es menor que 104. B aplica una comparación textual que contradice el tipo indicado. C ignora el criterio de desempate.",
+        "source": "https://support.microsoft.com/es-es/excel/sort-data-in-a-range-or-table-in-excel"
+      }
+    ]
+  },
+  {
+    "id": "razonamiento",
+    "stage": "herramientas",
+    "title": "Categorías, conjuntos y conclusiones",
+    "indicator": "RAZONAMIENTO CATEGORIAL",
+    "minutes": 20,
+    "summary": "Distingue lo que las premisas garantizan de lo que solo parece posible. Todas las reglas de los casos son hipotéticas.",
+    "objectives": [
+      "Traducir todos, algunos y ninguno a conjuntos.",
+      "Evitar convertir una inclusión en su inversa.",
+      "Comprobar una conclusión mediante un ejemplo o contraejemplo."
+    ],
+    "sections": [
+      {
+        "title": "Las palabras que mandan",
+        "text": "Todos los A son B significa A contenido en B. Algunos A son B afirma que existe al menos un elemento común; no significa que todos lo sean. Ningún A es B impide cualquier elemento compartido. Estas palabras no son intercambiables."
+      },
+      {
+        "title": "Una flecha tiene dirección",
+        "text": "Si todo expediente urgente está marcado, un urgente debe estar marcado. Un marcado podría ser urgente o no: la premisa no dice que la marca sea exclusiva. No inviertas la relación. Tampoco concluyas que existen urgentes solo porque se define una regla para ellos."
+      },
+      {
+        "title": "Comprueba antes de responder",
+        "text": "Encadena inclusiones A→B y B→C para obtener A→C. Para refutar una conclusión, construye un caso que respete las premisas y la contradiga. Decide usando únicamente la información del enunciado; no agregues lo que ocurre habitualmente en una oficina."
+      }
+    ],
+    "example": {
+      "situation": "Todos los radicados prioritarios están registrados. Hay un documento registrado llamado X.",
+      "action": "Responde que no se puede asegurar si X es prioritario.",
+      "why": "X puede pertenecer al grupo registrado sin pertenecer al subconjunto prioritario; ambas posibilidades respetan la premisa."
+    },
+    "pitfalls": [
+      "Leer algunos como todos o como la mayoría.",
+      "Concluir que dos grupos se solapan porque comparten una categoría más amplia."
+    ],
+    "recall": {
+      "prompt": "Si todo A es B, ¿todo B es A?",
+      "answer": "No necesariamente. Ejemplo: A={1}, B={1,2}; el 2 es B y no es A."
+    },
+    "sources": [
+      {
+        "label": "Stanford · Cuantificadores, lección 7.2",
+        "url": "https://logic.stanford.edu/intrologic/lessons/lesson_07_02.html"
+      },
+      {
+        "label": "Stanford · Reglas de cuantificación, lección 10.2",
+        "url": "https://logic.stanford.edu/intrologic/lessons/lesson_10_02.html"
+      }
+    ],
+    "questions": [
+      {
+        "id": "razonamiento-q1",
+        "stem": "Regla hipotética: todos los expedientes urgentes están marcados. El expediente K es urgente. ¿Qué se sigue necesariamente?",
+        "options": [
+          "K está marcado.",
+          "Todos los marcados son urgentes.",
+          "Ningún marcado es urgente."
+        ],
+        "answer": 0,
+        "explanation": "A aplica la regla a K. B invierte la inclusión: podría haber marcados no urgentes. C contradice la existencia del urgente K que debe estar marcado.",
+        "source": "https://logic.stanford.edu/intrologic/lessons/lesson_07_02.html"
+      },
+      {
+        "id": "razonamiento-q2",
+        "stem": "Todos los documentos de categoría A pertenecen a B. Todos los de B pertenecen a C. ¿Cuál conclusión es obligatoria?",
+        "options": [
+          "Todos los C pertenecen a A.",
+          "Todos los A pertenecen a C.",
+          "Ningún A pertenece a C."
+        ],
+        "answer": 1,
+        "explanation": "B encadena A→B→C. A invierte el resultado: C puede tener elementos externos a A. C niega la inclusión y no se desprende; en particular fallaría si A tiene elementos.",
+        "source": "https://logic.stanford.edu/intrologic/lessons/lesson_10_02.html"
+      },
+      {
+        "id": "razonamiento-q3",
+        "stem": "Ningún expediente reservado es público. El expediente M es reservado. ¿Qué conclusión es necesaria?",
+        "options": [
+          "Todos los no públicos son reservados.",
+          "M puede ser público y reservado a la vez.",
+          "M no es público."
+        ],
+        "answer": 2,
+        "explanation": "C usa la exclusión de los conjuntos. A invierte una condición: un no público podría tener otra categoría. B contradice la premisa que impide pertenecer a ambos grupos.",
+        "source": "https://logic.stanford.edu/intrologic/lessons/lesson_07_02.html"
+      },
+      {
+        "id": "razonamiento-q4",
+        "stem": "Algunas solicitudes registradas son digitales. Todos los documentos digitales tienen identificador. ¿Qué se sigue necesariamente?",
+        "options": [
+          "Todas las solicitudes registradas tienen identificador.",
+          "Algunas solicitudes registradas tienen identificador.",
+          "Ninguna solicitud registrada tiene identificador."
+        ],
+        "answer": 1,
+        "explanation": "B conserva la existencia del grupo compartido: esas solicitudes digitales tienen identificador. A amplía algunos a todos. C contradice los elementos cuya existencia afirma la primera premisa.",
+        "source": "https://logic.stanford.edu/intrologic/lessons/lesson_10_02.html"
+      },
+      {
+        "id": "razonamiento-q5",
+        "stem": "Todas las actas son documentos. Todas las facturas son documentos. ¿Qué relación entre actas y facturas se puede garantizar con estas dos premisas?",
+        "options": [
+          "Todas las actas son facturas.",
+          "Algunas facturas son actas.",
+          "No se garantiza una intersección ni una inclusión entre ambos grupos."
+        ],
+        "answer": 2,
+        "explanation": "C reconoce información insuficiente. A puede fallar con actas={1}, facturas={2}, documentos={1,2}. Ese mismo caso refuta B: compartir un conjunto amplio no fuerza elementos comunes.",
+        "source": "https://logic.stanford.edu/intrologic/lessons/lesson_07_02.html"
+      },
+      {
+        "id": "razonamiento-q6",
+        "stem": "Todos los trámites de A requieren revisión. Ningún trámite que requiere revisión se cierra automáticamente. Algunos trámites pertenecen a A. ¿Qué conclusión es necesaria?",
+        "options": [
+          "Algunos trámites no se cierran automáticamente.",
+          "Ningún trámite fuera de A requiere revisión.",
+          "Todos los que no se cierran automáticamente pertenecen a A."
+        ],
+        "answer": 0,
+        "explanation": "A usa los elementos que sí existen en A: requieren revisión y no se cierran automáticamente. B no está sustentada sobre los externos a A. C invierte la cadena; puede haber otros trámites sin cierre automático.",
+        "source": "https://logic.stanford.edu/intrologic/lessons/lesson_10_02.html"
+      }
+    ]
+  },
+  {
+    "id": "servicio",
+    "stage": "servicio",
+    "title": "Atender y orientar con claridad",
+    "indicator": "SERVICIO Y ATENCION AL USUARIO",
+    "minutes": 20,
+    "summary": "Escucha, aclara la necesidad y orienta con información verificable, teniendo presentes accesibilidad y seguimiento de peticiones.",
+    "objectives": [
+      "Comunicar pasos que el usuario pueda seguir.",
+      "Distinguir los términos generales de petición.",
+      "Canalizar sin ocultar el seguimiento."
+    ],
+    "sections": [
+      {
+        "title": "Escucha y verifica",
+        "text": "Identifica qué necesita la persona antes de explicar un trámite. Usa instrucciones cortas, una secuencia y palabras cotidianas. Comprueba comprensión pidiendo que exprese el siguiente paso. Ajusta la comunicación a sus necesidades sin presumirlas."
+      },
+      {
+        "title": "Peticiones: mapa básico",
+        "text": "Bajo la Ley 1755, salvo norma especial, el término general es 15 días; documentos e información, 10; consultas sobre materias a cargo, 30. Distingue el objeto, no solo el título. Son términos generales de estudio: el cómputo y situaciones específicas requieren consultar la norma y el procedimiento."
+      },
+      {
+        "title": "Canalizar y dar seguimiento",
+        "text": "Si el área no puede resolver, identifica el canal competente y deja trazabilidad. No prometas resultados fuera de tu función. Una respuesta útil aborda lo pedido y permite comprender los pasos siguientes; una explicación rápida que nadie entiende no cumple el objetivo de orientar."
+      }
+    ],
+    "example": {
+      "situation": "Una persona dice que no entendió el trámite porque se le explicó con varias siglas.",
+      "action": "Explica los pasos con nombres completos, confirma el canal oficial y pide que te indique cuál hará primero.",
+      "why": "Puedes detectar el punto de confusión y ajustar la explicación antes de que repita una gestión errónea."
+    },
+    "pitfalls": [
+      "Equiparar cualquier petición a una consulta de 30 días.",
+      "Responder con siglas o remisiones genéricas que no indican el paso siguiente."
+    ],
+    "recall": {
+      "prompt": "¿Cuáles son los tres términos generales básicos del artículo 14?",
+      "answer": "15 días para la regla general, 10 para documentos e información y 30 para consultas, salvo norma especial."
+    },
+    "sources": [
+      {
+        "label": "Función Pública · Ley 1755 de 2015",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334"
+      },
+      {
+        "label": "Función Pública · Concepto 544711 de 2024",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=268056"
+      },
+      {
+        "label": "Función Pública · Protocolo de servicio al ciudadano",
+        "url": "https://www1.funcionpublica.gov.co/documents/418537/555312/Protocolo_servicio_al_ciudadano.pdf/ae477f08-9526-f6e9-a6d1-e50bf94dc7d8?t=1636052852595"
+      },
+      {
+        "label": "Función Pública · Relación Estado-ciudadanías",
+        "url": "https://www.funcionpublica.gov.co/mipg/relacion-estado-ciudadanias"
+      }
+    ],
+    "questions": [
+      {
+        "id": "servicio-q1",
+        "stem": "Una usuaria pide orientación, pero no queda claro si necesita actualizar sus datos o obtener una copia. ¿Qué haces primero?",
+        "options": [
+          "Explicar ambos trámites sin escuchar más.",
+          "Preguntar qué resultado necesita y confirmar lo comprendido.",
+          "Remitirla inmediatamente a cualquier ventanilla."
+        ],
+        "answer": 1,
+        "explanation": "B aclara la necesidad para orientar correctamente. A puede saturarla con información innecesaria. C desplaza el problema sin identificar el servicio adecuado.",
+        "source": "https://www1.funcionpublica.gov.co/documents/418537/555312/Protocolo_servicio_al_ciudadano.pdf/ae477f08-9526-f6e9-a6d1-e50bf94dc7d8?t=1636052852595"
+      },
+      {
+        "id": "servicio-q2",
+        "stem": "Una petición solicita copias de documentos públicos y no aplica norma especial. ¿Cuál es el término general de respuesta del artículo 14?",
+        "options": [
+          "10 días.",
+          "15 días.",
+          "30 días."
+        ],
+        "answer": 0,
+        "explanation": "A corresponde a documentos e información. B es el término general de otras peticiones. C corresponde a consultas sobre materias a cargo de la autoridad.",
+        "source": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334"
+      },
+      {
+        "id": "servicio-q3",
+        "stem": "Una persona solicita un concepto general sobre una materia a cargo de la autoridad. El caso aclara que es una consulta y que no hay norma especial. ¿Qué término general corresponde?",
+        "options": [
+          "10 días porque toda consulta pide información.",
+          "15 días porque todas las peticiones tienen un único término.",
+          "30 días para este tipo de consulta."
+        ],
+        "answer": 2,
+        "explanation": "C coincide con la categoría expresamente definida. A confunde la consulta con una solicitud documental. B desconoce las excepciones de términos dentro del artículo 14.",
+        "source": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=268056"
+      },
+      {
+        "id": "servicio-q4",
+        "stem": "Después de tu explicación, la persona continúa confundida. ¿Qué acción mejora la comprensión?",
+        "options": [
+          "Repetir las mismas siglas a mayor velocidad.",
+          "Explicar por pasos, aclarar términos y confirmar cuál es el siguiente paso.",
+          "Entregar un folleto sin verificar si responde a su necesidad."
+        ],
+        "answer": 1,
+        "explanation": "B ajusta la comunicación y comprueba el resultado. A mantiene la barrera y agrega velocidad. C puede complementar, pero por sí solo no identifica ni resuelve la confusión.",
+        "source": "https://www.funcionpublica.gov.co/mipg/relacion-estado-ciudadanias"
+      },
+      {
+        "id": "servicio-q5",
+        "stem": "Recibes por escrito una petición cuyo asunto no corresponde a la autoridad. Según la regla general del artículo 21, ¿qué actuación procede?",
+        "options": [
+          "Archivar por falta de competencia sin avisar.",
+          "Responder únicamente que no es tu responsabilidad.",
+          "Informar y remitir al competente dentro de los cinco días siguientes, enviando copia del oficio remisorio al peticionario."
+        ],
+        "answer": 2,
+        "explanation": "C aplica la actuación de la autoridad incompetente frente a petición escrita. A impide la canalización y el aviso. B informa parcialmente, pero omite remisión y trazabilidad.",
+        "source": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334"
+      },
+      {
+        "id": "servicio-q6",
+        "stem": "Una persona con una necesidad de comunicación te indica que prefiere instrucciones escritas. El servicio puede proporcionarlas. ¿Qué actuación es más adecuada?",
+        "options": [
+          "Ofrecer la secuencia escrita accesible y verificar que responde a su necesidad.",
+          "Insistir en la explicación oral habitual para tratar a todos igual.",
+          "Hablar exclusivamente con su acompañante sin dirigirte a ella."
+        ],
+        "answer": 0,
+        "explanation": "A atiende la preferencia expresada y comprueba utilidad. B conserva una barrera aunque existe una alternativa. C excluye a la persona de la atención sin que el caso lo justifique.",
+        "source": "https://www1.funcionpublica.gov.co/documents/418537/555312/Protocolo_servicio_al_ciudadano.pdf/ae477f08-9526-f6e9-a6d1-e50bf94dc7d8?t=1636052852595"
+      }
+    ]
+  }
+]
