@@ -1,8 +1,12 @@
 # Ruta DIAN 2676 · Facilitador II
 
-Ruta para OPEC 236906: 22 indicadores, siete etapas temáticas y un simulacro final. Conserva las lecciones, 102 casos explicados y 30 afirmaciones de autoinforme originales. Los resultados son pedagógicos; no predicen una nota oficial.
+Ruta para OPEC 236906: 22 indicadores, siete etapas temáticas y un simulacro final. Incluye 145 casos desarrollados, 31 fichas normativas y técnicas y 30 afirmaciones de autoinforme originales. Conserva los 102 casos históricos para revisar intentos anteriores. Los resultados son pedagógicos; no predicen una nota oficial.
 
 ## Funciones
+
+- Profundización técnica en los 22 indicadores: 84 apartados adicionales, vocabulario, mapas de artículos y fuentes oficiales.
+- Biblioteca normativa con búsqueda por ley, artículo o concepto y filtro por indicador. Constitución, Estatuto Tributario, DIAN, archivos, petición, transparencia, datos personales, deberes del servidor y referencias de ofimática.
+- Casos con situación, enunciado y tres opciones; explicación individual de las opciones funcionales y fundamento al terminar. Práctica normativa de 12 casos y entrenamiento extendido de 54 ítems.
 
 - Perrito 3D de Three.js con pelaje estilizado, ojos articulados, mandíbula y patas detalladas. Su rincón incluye un bol de cerámica con croquetas individuales, cama acolchada y juguetes. Las prendas tienen costuras y pequeños detalles. Sin WebGL, muestra una ilustración de respaldo.
 - Merienda animada en fases: anticipar, olfatear, comer, relamerse y quedar satisfecho. Los botones permiten acariciar, jugar, estirarse, descansar, sentarse y celebrar. Ver cómo come es una demostración que no descuenta comida ni cambia el progreso.
@@ -66,3 +70,13 @@ Se verificaron también en navegador el perrito, prioridades tras recargar, alim
 Guía oficial DIAN 2676: https://www.cnsc.gov.co/sites/default/files/2026-10/dian-2676_guia_orientacion_aspirante_presentacion-pruebas-escritas_0.pdf. Cada lección incluye referencias oficiales; los ítems son originales y ajenos al banco reservado.
 
 Three.js se distribuye bajo licencia MIT, incluida en `dist/vendor/THREE-LICENSE.txt`. El perrito usa geometrías propias; no necesita modelos remotos ni credenciales.
+
+## Base editorial y actualización del 15 de octubre de 2026
+
+La ampliación se almacena en `dist/technical.json`; `study-engine.js` la integra con las lecciones originales. Los identificadores `v20261015-` distinguen preguntas nuevas. Los casos originales no se reescriben: siguen disponibles para que los respaldos e intentos históricos conserven sus claves. El muestreo de prácticas nuevas excluye preguntas archivadas. Las tres metas iniciales se mantienen y cada indicador añade tres metas de profundización.
+
+La referencia de formato es la [guía CNSC DIAN 2676 de octubre de 2026](https://www.cnsc.gov.co/sites/default/files/2026-10/dian-2676_guia_orientacion_aspirante_presentacion-pruebas-escritas_0.pdf): un caso/enunciado/tres opciones en funcionales; autoinforme de cuatro opciones en comportamiento e integridad. Se consultaron sus ejemplos públicos, incluido el nivel asistencial; los casos del sitio son originales. La cantidad, longitud y tiempos de práctica son pedagógicos. El entrenamiento extendido no se presenta como réplica de la jornada oficial ni de su calificación psicométrica.
+
+El material utiliza el corte de normas vigentes y expedidas antes del 19 de junio de 2026 indicado por la guía. Los enlaces consolidados pueden contener modificaciones posteriores y requieren examinar notas de vigencia. Las fichas constituyen una selección orientada a los indicadores suministrados, no una promesa de cobertura de cualquier norma ni una lista oficial adicional de materias. Se evita usar la Ley 2586 de 19 de junio de 2026 como clave de este banco; las particularidades de vigencia aduanera se explican en su ficha.
+
+Las fuentes primarias se identifican por URL y referencia en cada ficha y caso. Las reglas de razonamiento y tiempos de TRD inventados se marcan como hipotéticos; no se presentan como procedimientos reales de la DIAN. No se enseñan tarifas, umbrales ni cronogramas tributarios universales. La conservación tributaria se explica junto con Ley 962/2005 art. 46 y su modificación, sin reducirla a cinco años en todo caso. El Acuerdo AGN 001/2024 se usa con sus derogatorias y reglas transitorias.
