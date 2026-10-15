@@ -33,8 +33,10 @@ test('configured API: secure credentials, sessions, isolated progress and confli
     assert.equal((await call('/api/progress',{method:'PUT',body:{state:state(),revision:0}})).status,401);
   });
   await t.test('one account cannot read or overwrite another account',async()=>{
-    const first=await call('/api/progress',{method:'PUT',body:{state:state(),revision:0,userId:'another-user'},cookie:cookieA});assert.equal(first.status,200);assert.equal(first.data.revision,1);
+    const withCare=state();withCare.pet.care={startedAt:1792076400000,events:{'study:2026-10-15':{kind:'study',at:1792076401000},'play:2026-10-15:1':{kind:'play',at:1792076402000}}};withCare.pet.ledger['daily:study:2026-10-15']={kind:'reward',stars:0,food:1,at:1792076401000};
+    const first=await call('/api/progress',{method:'PUT',body:{state:withCare,revision:0,userId:'another-user'},cookie:cookieA});assert.equal(first.status,200);assert.equal(first.data.revision,1);
     const a=await call('/api/progress',{cookie:cookieA});assert.equal(a.data.state.pet.name,'Toby');assert.equal(a.data.state.priorities.oficina,2);
+    assert.deepEqual(a.data.state.pet.care,withCare.pet.care);assert.deepEqual(a.data.state.pet.ledger,withCare.pet.ledger);
     const b=await call('/api/progress?userId='+encodeURIComponent((await call('/api/auth/me',{cookie:cookieA})).data.user.id),{cookie:cookieB});assert.equal(b.data.state,null);assert.equal(b.data.revision,0);
     const bobState=state();bobState.pet.name='Luna';assert.equal((await call('/api/progress',{method:'PUT',body:{state:bobState,revision:0},cookie:cookieB})).status,200);assert.equal((await call('/api/progress',{cookie:cookieA})).data.state.pet.name,'Toby');
   });

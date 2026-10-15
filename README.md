@@ -10,6 +10,8 @@ Ruta para OPEC 236906: 22 indicadores, siete etapas temáticas y un simulacro fi
 
 - Perrito 3D de Three.js con pelaje estilizado, ojos articulados, mandíbula y patas detalladas. Su rincón incluye un bol de cerámica con croquetas individuales, cama acolchada y juguetes. Las prendas tienen costuras y pequeños detalles. Sin WebGL, muestra una ilustración de respaldo.
 - Merienda animada en fases: anticipar, olfatear, comer, relamerse y quedar satisfecho. Los botones permiten acariciar, jugar, estirarse, descansar, sentarse y celebrar. Ver cómo come es una demostración que no descuenta comida ni cambia el progreso.
+- Salud con alimentación, ánimo y energía. Parten en 80 y bajan 12, 10 y 8 puntos diarios, respectivamente; tienen un mínimo de 20. Comer recupera hasta 30/8/5; jugar, hasta 25 de ánimo y consume 10 de energía; descansar recupera hasta 30 de energía una vez al día. Jugar requiere 30 de energía. Ninguna ausencia quita prendas o estrellas.
+- Dos tareas por día de Colombia: leer o registrar un repaso (también con tarjetas) y responder una práctica completa, sin exigir nota mínima. Cada una da una comida y un turno de juego. La comida se acumula; los turnos de juego y tareas se renuevan a medianoche. Las prácticas incompletas no cumplen esta tarea. Los premios de examen se suman a los diarios.
 - Comida por cada examen terminado con 80% o más; dos comidas al lograr 100%. Estrellas por alcanzar una meta por primera vez y por su primer resultado perfecto. Pañuelo, gorra, suéter y corona se desbloquean con estrellas. El autoinforme completo da comida sin puntuar sus respuestas.
 - Prioridades alta, normal y baja por indicador. Cambian la siguiente lección, el orden sugerido de etapas y el muestreo de práctica; la distribución abreviada del simulacro se mantiene.
 - Avance, mascota y prioridades en el navegador, con respaldos JSON.
@@ -52,6 +54,8 @@ Se mantiene la clave histórica `ruta-dian-2676-v1`, por lo que las lecturas e i
 Al registrarse se guarda el avance de invitado en la cuenta. Al entrar en una cuenta existente se recupera su avance y el de invitado queda separado; al salir vuelve el modo invitado. Las respuestas se sincronizan tras una pequeña espera para agrupar cambios. Guardar ahora permite sincronizar al terminar.
 
 Si otro dispositivo guardó cambios, el servidor devuelve un conflicto de revisión. Mi cuenta permite unir lecturas, mejores resultados, intentos y premios sin duplicarlos. Las prioridades actuales se mantienen. La copia local se conserva si falla la red; cada cuenta usa una clave local diferente.
+
+Los cuidados se guardan en el mismo progreso del usuario. El bienestar se calcula por tiempo transcurrido, incluso con la app cerrada, sin procesos en segundo plano. Los respaldos antiguos empiezan saludables al migrar y conservan sus premios. Las tareas y juegos usan identificadores diarios para que unir copias no repita la misma recompensa.
 
 El login es sencillo: no incluye verificación del correo ni recuperación de contraseña por email. No hay servicios de correo ni contraseñas predeterminadas. Las contraseñas se derivan con PBKDF2; la sesión usa una cookie HttpOnly y los tokens se guardan como hashes.
 
